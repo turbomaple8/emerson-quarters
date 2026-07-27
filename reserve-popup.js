@@ -124,5 +124,25 @@
     }
   }
 
-  setTimeout(showBanner, 10000);
+  // Homepage: fire on a timer, as before.
+  // Article pages (body.page-body): fire on reading depth instead. Someone ten
+  // seconds into a long guide is reading it, and covering the text at that
+  // moment is both bad for them and the kind of intrusive interstitial search
+  // engines penalise. Waiting for ~60% scroll means we only interrupt readers
+  // who actually finished most of the page.
+  if (document.body.classList.contains('page-body')) {
+    var fired = false;
+    var onScroll = function () {
+      if (fired) return;
+      var scrolled = window.scrollY + window.innerHeight;
+      if (scrolled / document.documentElement.scrollHeight >= 0.6) {
+        fired = true;
+        window.removeEventListener('scroll', onScroll);
+        showBanner();
+      }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+  } else {
+    setTimeout(showBanner, 10000);
+  }
 })();

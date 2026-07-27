@@ -3,7 +3,9 @@
    Dark navy + teal + coral theme
 ======================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+/* Fonts are loaded via <link rel="stylesheet"> in index.html <head>.
+   Do NOT re-add an @import here — it serialises the request chain
+   (HTML → styles.css → fonts CSS → font files) and delays first paint. */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 

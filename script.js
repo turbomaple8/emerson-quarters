@@ -207,6 +207,21 @@ function sendToBackend(endpoint, payload) {
   }).catch(() => {});
 }
 
+/* ---- Lead Email ---- */
+// Our own serverless function (api/lead.js), which sends through the Private
+// Email mailbox info@emersonq.com. Until this existed the backend call above
+// was the only destination for a lead, and it went to a project that was never
+// registered — so every enquiry was silently discarded.
+const MAIL_ENDPOINT = '/api/lead';
+
+function sendToEmail(kind, fields) {
+  fetch(MAIL_ENDPOINT, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ kind: kind, fields: fields, replyTo: fields.Email || '' })
+  }).catch(() => {});
+}
+
 /* ---- Form Handling ---- */
 
 function handleTourForm(e) {
@@ -220,7 +235,15 @@ function handleTourForm(e) {
     email: data.get('email'), phone: data.get('phone') || null,
     property: 'Emerson Quarters', date: data.get('date') || '',
     time: 'morning', notes: data.get('message') || null,
-    sourceWebsite: 'emersonquarters.com', city: 'Seattle'
+    sourceWebsite: 'emersonq.com', city: 'Seattle'
+  });
+
+  sendToEmail('tour', {
+    Name: (data.get('name') || '').trim(),
+    Email: data.get('email') || '',
+    Phone: data.get('phone') || '',
+    'Preferred Date': data.get('date') || '',
+    Message: data.get('message') || ''
   });
 
   form.innerHTML = `
@@ -243,7 +266,17 @@ function handleApplyForm(e) {
     property: 'Emerson Quarters', roomType: data.get('roomType') || null,
     moveInDate: data.get('moveIn') || null, leaseDuration: data.get('duration') || null,
     aboutYou: data.get('message') || null,
-    sourceWebsite: 'emersonquarters.com', city: 'Seattle'
+    sourceWebsite: 'emersonq.com', city: 'Seattle'
+  });
+
+  sendToEmail('apply', {
+    Name: `${data.get('firstName') || ''} ${data.get('lastName') || ''}`.trim(),
+    Email: data.get('email') || '',
+    Phone: data.get('phone') || '',
+    'Room Type': data.get('roomType') || '',
+    'Move-in Date': data.get('moveIn') || '',
+    'Lease Duration': data.get('duration') || '',
+    'About': data.get('message') || ''
   });
 
   form.innerHTML = `
@@ -271,7 +304,16 @@ function handleReserveForm(e) {
     fullName, email, phone: phone || null, moveInDate: moveIn || null,
     property: property || null,
     propertySlug: 'emerson-quarters',
-    roomName: room || null, sourceWebsite: 'emersonquarters.com', city: 'Seattle'
+    roomName: room || null, sourceWebsite: 'emersonq.com', city: 'Seattle'
+  });
+
+  sendToEmail('reserve', {
+    Name: fullName,
+    Email: email || '',
+    Phone: phone || '',
+    'Move-in Date': moveIn || '',
+    Property: property,
+    Room: room
   });
 
   const ctx = document.getElementById('reserveContext');

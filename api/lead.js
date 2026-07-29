@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 /* Lead notifications for emersonq.com.
    Sends through the site's own Private Email mailbox so a form enquiry lands in
    the same inbox a hand-typed one would, and never mixes with another brand.
-   Requires SMTP_PASS in the Vercel project environment. SMTP_USER and
+   Requires SMTP_PASSWORD in the Vercel project environment. SMTP_USER and
    LEAD_RECIPIENT default to info@emersonq.com. */
 
 /* The subject is chosen here, from a fixed set, so a caller cannot supply its
@@ -117,9 +117,11 @@ module.exports = async function handler(req, res) {
     return res.status(400).json({ ok: false, error: 'empty_submission' });
   }
 
-  if (!process.env.SMTP_PASS) {
+  const SMTP_PASS = process.env.SMTP_PASSWORD || process.env.SMTP_PASS;
+
+  if (!SMTP_PASS) {
     // Loud in the logs, quiet to the caller.
-    console.error('lead: SMTP_PASS is not set — cannot send notification');
+    console.error('lead: SMTP_PASSWORD is not set — cannot send notification');
     return res.status(500).json({ ok: false, error: 'mail_not_configured' });
   }
 
@@ -131,7 +133,7 @@ module.exports = async function handler(req, res) {
       host: SMTP_HOST,
       port: SMTP_PORT,
       secure: SMTP_PORT === 465,
-      auth: { user: SMTP_USER, pass: process.env.SMTP_PASS },
+      auth: { user: SMTP_USER, pass: SMTP_PASS },
       connectionTimeout: 8000,
       greetingTimeout: 8000,
       socketTimeout: 8000,

@@ -155,6 +155,14 @@ PAGE = """<!DOCTYPE html>
   <link rel="canonical" href="{url}">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
   <meta name="google-site-verification" content="QI9jsJLHg663X3P5gQUsR4BtZDlt9PFNUvILft_5h3M">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSZQVSN2CF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-NSZQVSN2CF');
+  </script>
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Emerson Quarters">
   <meta property="og:url" content="{url}">

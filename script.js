@@ -186,7 +186,14 @@ function initModals() {
    Every call is wrapped: a tracking failure must never stop a lead from being
    submitted. If gtag is blocked, still loading, or throws, the form carries on.
    source_page is the point of the whole thing — it tells us which guide
-   produced an enquiry, not just that one happened. */
+   produced an enquiry, not just that one happened.
+
+   Lead events are named per form — lead_tour / lead_apply / lead_reserve —
+   rather than one generate_lead carrying a type parameter. Each can then be
+   marked as its own key event in GA4 and counted separately, without needing
+   source_page registered as a custom dimension first. GA4's Key events metric
+   sums whatever is marked, so a combined total is still available.
+   lead_type is kept on each so the three can be grouped in an exploration. */
 
 const LEAD_TYPES = { tourModal: 'tour', applyModal: 'apply', reserveModal: 'reserve' };
 
@@ -271,7 +278,7 @@ function handleTourForm(e) {
     Message: data.get('message') || ''
   });
 
-  track('generate_lead', { lead_type: 'tour' });
+  track('lead_tour', { lead_type: 'tour' });
 
   form.innerHTML = `
     <div class="success-message">
@@ -306,7 +313,7 @@ function handleApplyForm(e) {
     'About': data.get('message') || ''
   });
 
-  track('generate_lead', { lead_type: 'apply' });
+  track('lead_apply', { lead_type: 'apply' });
 
   form.innerHTML = `
     <div class="success-message">
@@ -345,7 +352,7 @@ function handleReserveForm(e) {
     Room: room
   });
 
-  track('generate_lead', { lead_type: 'reserve', room_name: room || '(any)' });
+  track('lead_reserve', { lead_type: 'reserve', room_name: room || '(any)' });
 
   const ctx = document.getElementById('reserveContext');
   if (ctx) ctx.style.display = 'none';

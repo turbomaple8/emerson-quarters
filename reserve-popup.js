@@ -79,7 +79,11 @@
         </div>\
       </div>\
     ');
-    document.getElementById('rpBannerCta').addEventListener('click', showChoose);
+    if (typeof track === 'function') track('reserve_prompt_shown', { trigger: document.body.classList.contains('page-body') ? 'scroll_60' : 'timer_10s' });
+    document.getElementById('rpBannerCta').addEventListener('click', function () {
+      if (typeof track === 'function') track('reserve_prompt_click', {});
+      showChoose();
+    });
   }
 
   function showChoose() {
@@ -99,8 +103,14 @@
         </div>\
       </div>\
     ');
-    document.getElementById('rpAny').addEventListener('click', function () { openReserveForm(); });
-    document.getElementById('rpSelect').addEventListener('click', function () { openReserveForm(); });
+    document.getElementById('rpAny').addEventListener('click', function () {
+      if (typeof track === 'function') track('reserve_prompt_option', { option: 'any_room' });
+      openReserveForm();
+    });
+    document.getElementById('rpSelect').addEventListener('click', function () {
+      if (typeof track === 'function') track('reserve_prompt_option', { option: 'select_room' });
+      openReserveForm();
+    });
   }
 
   function openReserveForm() {

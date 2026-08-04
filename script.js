@@ -182,13 +182,38 @@ function initModals() {
   });
 }
 
+/* ---- Analytics ----
+   Every call is wrapped: a tracking failure must never stop a lead from being
+   submitted. If gtag is blocked, still loading, or throws, the form carries on.
+   source_page is the point of the whole thing — it tells us which guide
+   produced an enquiry, not just that one happened. */
+
+const LEAD_TYPES = { tourModal: 'tour', applyModal: 'apply', reserveModal: 'reserve' };
+
+function track(name, params) {
+  try {
+    if (typeof gtag !== 'function') return;
+    gtag('event', name, Object.assign({
+      source_page: location.pathname,
+      page_group: location.pathname === '/' ? 'home' : 'guide'
+    }, params || {}));
+  } catch (e) { /* analytics is never allowed to break the form */ }
+}
+
 function openModal(id) {
   const modal = document.getElementById(id);
   if (modal) {
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+    if (LEAD_TYPES[id]) track('form_start', { lead_type: LEAD_TYPES[id] });
   }
 }
+
+// Phone taps are a conversion too, and on mobile they are often the only one.
+document.addEventListener('click', function (e) {
+  const tel = e.target.closest && e.target.closest('a[href^="tel:"]');
+  if (tel) track('contact_phone', { method: 'phone' });
+});
 
 function closeAllModals() {
   document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('active'));
@@ -246,6 +271,8 @@ function handleTourForm(e) {
     Message: data.get('message') || ''
   });
 
+  track('generate_lead', { lead_type: 'tour' });
+
   form.innerHTML = `
     <div class="success-message">
       <div class="success-message__icon">&#10003;</div>
@@ -278,6 +305,8 @@ function handleApplyForm(e) {
     'Lease Duration': data.get('duration') || '',
     'About': data.get('message') || ''
   });
+
+  track('generate_lead', { lead_type: 'apply' });
 
   form.innerHTML = `
     <div class="success-message">
@@ -315,6 +344,8 @@ function handleReserveForm(e) {
     Property: property,
     Room: room
   });
+
+  track('generate_lead', { lead_type: 'reserve', room_name: room || '(any)' });
 
   const ctx = document.getElementById('reserveContext');
   if (ctx) ctx.style.display = 'none';
@@ -355,9 +386,10 @@ function handleReserveForm(e) {
     a.setAttribute('aria-label', 'Chat with us on WhatsApp');
     a.innerHTML = ICON;
     a.addEventListener('click', function () {
-      if (typeof gtag === 'function') {
-        gtag('event', 'whatsapp_click', { link_url: WHATSAPP_URL });
-      }
+      // Routed through track() so this carries source_page like every other
+      // conversion — otherwise a WhatsApp enquiry cannot be attributed to the
+      // guide that produced it.
+      track('whatsapp_click', { link_url: WHATSAPP_URL, method: 'whatsapp' });
     });
     document.body.appendChild(a);
   }

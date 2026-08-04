@@ -154,6 +154,7 @@ PAGE = """<!DOCTYPE html>
   <meta name="description" content="{description}">
   <link rel="canonical" href="{url}">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <meta name="google-site-verification" content="QI9jsJLHg663X3P5gQUsR4BtZDlt9PFNUvILft_5h3M">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Emerson Quarters">
   <meta property="og:url" content="{url}">

@@ -182,13 +182,38 @@ function initModals() {
   });
 }
 
+/* ---- Analytics ----
+   Every call is wrapped: a tracking failure must never stop a lead from being
+   submitted. If gtag is blocked, still loading, or throws, the form carries on.
+   source_page is the point of the whole thing — it tells us which guide
+   produced an enquiry, not just that one happened. */
+
+const LEAD_TYPES = { tourModal: 'tour', applyModal: 'apply', reserveModal: 'reserve' };
+
+function track(name, params) {
+  try {
+    if (typeof gtag !== 'function') return;
+    gtag('event', name, Object.assign({
+      source_page: location.pathname,
+      page_group: location.pathname === '/' ? 'home' : 'guide'
+    }, params || {}));
+  } catch (e) { /* analytics is never allowed to break the form */ }
+}
+
 function openModal(id) {
   const modal = document.getElementById(id);
   if (modal) {
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+    if (LEAD_TYPES[id]) track('form_start', { lead_type: LEAD_TYPES[id] });
   }
 }
+
+// Phone taps are a conversion too, and on mobile they are often the only one.
+document.addEventListener('click', function (e) {
+  const tel = e.target.closest && e.target.closest('a[href^="tel:"]');
+  if (tel) track('contact_phone', { method: 'phone' });
+});
 
 function closeAllModals() {
   document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('active'));
@@ -220,8 +245,10 @@ function handleTourForm(e) {
     email: data.get('email'), phone: data.get('phone') || null,
     property: 'Emerson Quarters', date: data.get('date') || '',
     time: 'morning', notes: data.get('message') || null,
-    sourceWebsite: 'emersonquarters.com', city: 'Seattle'
+    sourceWebsite: 'emersonq.com', city: 'Seattle'
   });
+
+  track('generate_lead', { lead_type: 'tour' });
 
   form.innerHTML = `
     <div class="success-message">
@@ -243,8 +270,10 @@ function handleApplyForm(e) {
     property: 'Emerson Quarters', roomType: data.get('roomType') || null,
     moveInDate: data.get('moveIn') || null, leaseDuration: data.get('duration') || null,
     aboutYou: data.get('message') || null,
-    sourceWebsite: 'emersonquarters.com', city: 'Seattle'
+    sourceWebsite: 'emersonq.com', city: 'Seattle'
   });
+
+  track('generate_lead', { lead_type: 'apply' });
 
   form.innerHTML = `
     <div class="success-message">
@@ -271,8 +300,10 @@ function handleReserveForm(e) {
     fullName, email, phone: phone || null, moveInDate: moveIn || null,
     property: property || null,
     propertySlug: 'emerson-quarters',
-    roomName: room || null, sourceWebsite: 'emersonquarters.com', city: 'Seattle'
+    roomName: room || null, sourceWebsite: 'emersonq.com', city: 'Seattle'
   });
+
+  track('generate_lead', { lead_type: 'reserve', room_name: room || '(any)' });
 
   const ctx = document.getElementById('reserveContext');
   if (ctx) ctx.style.display = 'none';

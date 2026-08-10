@@ -23,6 +23,7 @@ import sys
 import json
 import html
 import glob
+import datetime
 
 import markdown
 
@@ -79,7 +80,12 @@ def parse(path):
     for line in m.group(1).splitlines():
         if ":" in line:
             k, v = line.split(":", 1)
-            meta[k.strip()] = v.strip().strip('"')
+            v = v.strip()
+            # A quoted value may contain escaped quotes (h1: "What \"X\" means").
+            # Strip the wrapper, then unescape — otherwise the backslashes render.
+            if len(v) >= 2 and v[0] == '"' and v[-1] == '"':
+                v = v[1:-1].replace('\\"', '"')
+            meta[k.strip()] = v
     # The H1 is rendered from frontmatter by the template, so strip it from the
     # body — otherwise the page renders its title twice. lstrip() first: the
     # body starts with blank lines after the frontmatter block, so an
@@ -224,6 +230,245 @@ PAGE = """<!DOCTYPE html>
 """
 
 
+POST = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <meta name="description" content="{description}">
+  <link rel="canonical" href="{url}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <meta name="google-site-verification" content="QI9jsJLHg663X3P5gQUsR4BtZDlt9PFNUvILft_5h3M">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSZQVSN2CF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-NSZQVSN2CF');
+  </script>
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Emerson Quarters">
+  <meta property="og:url" content="{url}">
+  <meta property="og:title" content="{title}">
+  <meta property="og:description" content="{description}">
+  <meta property="og:image" content="{site}/photos/hero-exterior-1536.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="Emerson Quarters apartment building in Queen Anne, Seattle">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>E</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+{schema}
+  </script>
+</head>
+<body class="page-body">
+
+{nav}
+
+  <article class="article">
+    <div class="container container--prose">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a> <span aria-hidden="true">/</span>
+        <a href="/blog/">Blog</a> <span aria-hidden="true">/</span> <span>{hub_label}</span>
+      </nav>
+      <h1 class="article__title">{h1}</h1>
+      <p class="article__meta">
+        <time datetime="{date}">{date}</time>
+        <span aria-hidden="true">·</span>
+        Part of <a href="{hub_url}">{hub_label}</a>
+      </p>
+      <div class="prose">
+{content}
+      </div>
+      <div class="article__cta">
+        <h2>Ready to see it?</h2>
+        <p>Hold a room for 24 hours with no payment and no obligation, or come and look around first.</p>
+        <div class="btn-group">
+          <a href="#" class="btn btn--accent btn--lg" data-modal="reserve" data-reserve-property="Emerson Quarters">Instant Reservation</a>
+          <a href="#" class="btn btn--outline-white btn--lg" data-modal="tour">Schedule a Tour</a>
+          <a href="#" class="btn btn--outline-white btn--lg" data-modal="apply">Apply Now</a>
+        </div>
+      </div>
+      <nav class="guides" aria-label="Related reading">
+        <h2>More on this</h2>
+        <ul>
+{related}
+        </ul>
+        <p class="guides__more"><a href="{hub_url}">Read the full guide: {hub_label}</a> &middot; <a href="/blog/">All posts</a></p>
+      </nav>
+    </div>
+  </article>
+
+{footer}
+
+{modals}
+
+  <script src="/script.js"></script>
+  <script src="/reserve-popup.js"></script>
+</body>
+</html>
+"""
+
+
+BLOG_INDEX = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Housing Guides Blog | Emerson Quarters, Queen Anne Seattle</title>
+  <meta name="description" content="Practical guides to renting a room in Queen Anne, Seattle — near Seattle Pacific University, for students, interns and young professionals.">
+  <link rel="canonical" href="{url}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <meta name="google-site-verification" content="QI9jsJLHg663X3P5gQUsR4BtZDlt9PFNUvILft_5h3M">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSZQVSN2CF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-NSZQVSN2CF');
+  </script>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Emerson Quarters">
+  <meta property="og:url" content="{url}">
+  <meta property="og:title" content="Housing Guides Blog | Emerson Quarters, Queen Anne Seattle">
+  <meta property="og:description" content="Practical guides to renting a room in Queen Anne, Seattle — near Seattle Pacific University, for students, interns and young professionals.">
+  <meta property="og:image" content="{site}/photos/hero-exterior-1536.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="Emerson Quarters apartment building in Queen Anne, Seattle">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>E</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@graph": [
+    {{
+      "@type": "Blog",
+      "@id": "{url}#blog",
+      "name": "Emerson Quarters Housing Guides",
+      "url": "{url}",
+      "description": "Practical guides to renting a room in Queen Anne, Seattle.",
+      "isPartOf": {{ "@id": "{site}/#website" }},
+      "publisher": {{ "@id": "{site}/#organization" }},
+      "inLanguage": "en-US"
+    }},
+    {{
+      "@type": "BreadcrumbList",
+      "@id": "{url}#breadcrumb",
+      "itemListElement": [
+        {{ "@type": "ListItem", "position": 1, "name": "Home", "item": "{site}/" }},
+        {{ "@type": "ListItem", "position": 2, "name": "Blog", "item": "{url}" }}
+      ]
+    }}
+  ]
+}}
+  </script>
+</head>
+<body class="page-body">
+
+{nav}
+
+  <article class="article">
+    <div class="container container--prose">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a> <span aria-hidden="true">/</span> <span>Blog</span>
+      </nav>
+      <h1 class="article__title">Housing Guides</h1>
+      <div class="prose">
+        <p>Straight answers about renting a room in Queen Anne, Seattle — what it costs, how shared living actually works, and how the neighbourhood fits around Seattle Pacific University, downtown and South Lake Union.</p>
+      </div>
+{sections}
+    </div>
+  </article>
+
+{footer}
+
+{modals}
+
+  <script src="/script.js"></script>
+  <script src="/reserve-popup.js"></script>
+</body>
+</html>
+"""
+
+
+def build_post_schema(meta, faqs):
+    url = SITE_URL + meta["url"]
+    graph = [
+        {
+            "@type": "BlogPosting",
+            "@id": url + "#article",
+            "headline": meta["h1"],
+            "description": meta["description"],
+            "url": url,
+            "datePublished": meta["date"],
+            "dateModified": meta.get("updated", meta["date"]),
+            "isPartOf": {"@id": SITE_URL + "/#website"},
+            "about": {"@id": SITE_URL + "/#property"},
+            "publisher": {"@id": SITE_URL + "/#organization"},
+            "author": {"@id": SITE_URL + "/#organization"},
+            "inLanguage": "en-US",
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": url + "#breadcrumb",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"},
+                {"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE_URL + "/blog/"},
+                {"@type": "ListItem", "position": 3, "name": meta["h1"], "item": url},
+            ],
+        },
+    ]
+    if faqs:
+        graph.append({
+            "@type": "FAQPage",
+            "@id": url + "#faq",
+            "mainEntity": [
+                {"@type": "Question", "name": f["q"],
+                 "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
+                for f in faqs
+            ],
+        })
+    return json.dumps({"@context": "https://schema.org", "@graph": graph},
+                      indent=2, ensure_ascii=False)
+
+
+def build_blog_index(posts, hub_titles, nav, footer, modals):
+    by_pillar = {}
+    for meta, _ in posts:
+        by_pillar.setdefault(meta.get("hub_url", ""), []).append(meta)
+
+    sections = []
+    for hub, items in sorted(by_pillar.items(), key=lambda kv: hub_titles.get(kv[0], "zz")):
+        rows = "\n".join(
+            f'          <li><a href="{m["url"]}">{html.escape(m["h1"])}</a>'
+            f'<span class="bloglist__date">{m["date"]}</span></li>'
+            for m in items
+        )
+        label = html.escape(hub_titles.get(hub, "Other"))
+        head = f'<h2><a href="{hub}">{label}</a></h2>' if hub else f"<h2>{label}</h2>"
+        sections.append(f'        <section class="bloglist__group">\n          {head}\n'
+                        f'          <ul class="bloglist">\n{rows}\n          </ul>\n        </section>')
+
+    return BLOG_INDEX.format(
+        site=SITE_URL,
+        url=SITE_URL + "/blog/",
+        sections="\n".join(sections),
+        nav=nav, footer=footer, modals=modals,
+    )
+
+
 def main():
     check = "--check" in sys.argv
     nav, footer, modals = extract_chrome()
@@ -232,6 +477,15 @@ def main():
     for path in sorted(glob.glob(os.path.join(CONTENT, "*.md"))):
         meta, body = parse(path)
         pages.append((meta, body))
+
+    posts = []
+    for path in sorted(glob.glob(os.path.join(CONTENT, "blog", "*.md"))):
+        meta, body = parse(path)
+        if not meta.get("date"):
+            sys.exit(f"build: {path} is missing frontmatter 'date' (YYYY-MM-DD)")
+        posts.append((meta, body))
+    # newest first, for the index and for "latest" links
+    posts.sort(key=lambda p: p[0]["date"], reverse=True)
 
     stale = []
     for meta, body in pages:
@@ -262,34 +516,99 @@ def main():
                 open(out, "w", encoding="utf-8").write(page)
         print(f"  {meta['url']:28} {len(content):>6} bytes  faq:{len(faqs)}")
 
+    hub_titles = {m["url"]: m["h1"].split(":")[0] for m, _ in pages}
+
+    for meta, body in posts:
+        faqs = faq_items(body)
+        content = markdown.markdown(body, extensions=["tables", "sane_lists"])
+        hub = meta.get("hub_url", "")
+        related = "\n".join(
+            f'          <li><a href="{m["url"]}">{html.escape(m["h1"].split(":")[0])}</a> '
+            f'<span class="guides__date">{m["date"]}</span></li>'
+            for m, _ in posts if m["url"] != meta["url"] and m.get("pillar") == meta.get("pillar")
+        ) or "\n".join(
+            f'          <li><a href="{m["url"]}">{html.escape(m["h1"].split(":")[0])}</a></li>'
+            for m, _ in pages
+        )
+        page = POST.format(
+            title=html.escape(meta["title"]),
+            description=html.escape(meta["description"]),
+            url=SITE_URL + meta["url"],
+            site=SITE_URL,
+            h1=html.escape(meta["h1"]),
+            date=meta["date"],
+            hub_url=hub,
+            hub_label=html.escape(hub_titles.get(hub, "Housing Guides")),
+            schema=build_post_schema(meta, faqs),
+            content=content,
+            nav=nav, footer=footer, modals=modals, related=related,
+        )
+        out = os.path.join(ROOT, meta["url"].strip("/"), "index.html")
+        existing = open(out, encoding="utf-8").read() if os.path.exists(out) else None
+        if existing != page:
+            stale.append(meta["url"])
+            if not check:
+                os.makedirs(os.path.dirname(out), exist_ok=True)
+                open(out, "w", encoding="utf-8").write(page)
+        print(f"  {meta['url']:44} {len(content):>6} bytes  faq:{len(faqs)}")
+
+    if posts:
+        index_html = build_blog_index(posts, hub_titles, nav, footer, modals)
+        out = os.path.join(ROOT, "blog", "index.html")
+        existing = open(out, encoding="utf-8").read() if os.path.exists(out) else None
+        if existing != index_html:
+            stale.append("/blog/")
+            if not check:
+                os.makedirs(os.path.dirname(out), exist_ok=True)
+                open(out, "w", encoding="utf-8").write(index_html)
+        print(f"  {'/blog/':44} index of {len(posts)} posts")
+
     if check:
         if stale:
             sys.exit(f"build --check: out of date -> {', '.join(stale)}")
         print("build --check: all pages up to date")
     else:
-        print(f"built {len(pages)} pages")
-        write_sitemap([m["url"] for m, _ in pages])
+        print(f"built {len(pages)} pages, {len(posts)} posts")
+        write_sitemap([m["url"] for m, _ in pages],
+                      [(m["url"], m["date"]) for m, _ in posts])
 
 
-def write_sitemap(urls):
-    entries = "\n".join(
-        f"  <url>\n    <loc>{SITE_URL}{u}</loc>\n    <lastmod>2026-07-27</lastmod>\n"
-        f"    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>"
-        for u in urls
-    )
-    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
+def write_sitemap(page_urls, post_entries):
+    """lastmod comes from the post's own date, and TODAY for the pages we just
+    rebuilt — a hardcoded date silently goes stale and tells crawlers nothing."""
+    today = datetime.date.today().isoformat()
+    parts = [f"""  <url>
     <loc>{SITE_URL}/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>{today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-{entries}
-</urlset>
-"""
+  </url>"""]
+    for u in page_urls:
+        parts.append(f"""  <url>
+    <loc>{SITE_URL}{u}</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>""")
+    if post_entries:
+        parts.append(f"""  <url>
+    <loc>{SITE_URL}/blog/</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>""")
+    for u, d in post_entries:
+        parts.append(f"""  <url>
+    <loc>{SITE_URL}{u}</loc>
+    <lastmod>{d}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>""")
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           + "\n".join(parts) + "\n</urlset>\n")
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write(xml)
-    print(f"wrote sitemap.xml with {len(urls) + 1} URLs")
+    print(f"wrote sitemap.xml with {len(parts)} URLs")
 
 
 if __name__ == "__main__":

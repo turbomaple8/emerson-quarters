@@ -896,3 +896,71 @@ h3 { font-size: clamp(1.3rem, 2.5vw, 1.7rem); }
 .guides li { display: flex; justify-content: space-between; gap: 1rem; }
 .guides__more { margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted); }
 .guides__more a { color: var(--accent-dark); }
+
+/* ---- Nav: Guides dropdown ----
+   CSS-only (hover + focus-within) so it works without JS and stays keyboard
+   reachable. The panel is the strongest internal link surface on the site —
+   it puts all five pillar hubs on every page. */
+.nav__dropdown { position: relative; display: flex; align-items: center; }
+.nav__link--has-menu { display: inline-flex; align-items: center; gap: 0.3rem; }
+.nav__link--has-menu svg { opacity: 0.7; transition: transform var(--transition); }
+.nav__dropdown:hover .nav__link--has-menu svg,
+.nav__dropdown:focus-within .nav__link--has-menu svg { transform: rotate(180deg); }
+
+.nav__menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(6px);
+  min-width: 250px;
+  padding: 0.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+  z-index: 1001;
+}
+.nav__dropdown:hover .nav__menu,
+.nav__dropdown:focus-within .nav__menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+.nav__menu a {
+  display: block;
+  padding: 0.6rem 0.85rem;
+  font-size: 0.87rem;
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  transition: background 0.15s, color 0.15s;
+}
+.nav__menu a:hover { background: var(--bg-alt); color: var(--text); }
+.nav__menu-all {
+  margin-top: 0.25rem;
+  border-top: 1px solid var(--border-light);
+  color: var(--accent-dark) !important;
+  font-weight: 600;
+}
+
+/* Mobile menu: guides as a labelled, indented group */
+.nav__mobile-heading {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 0 0.25rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+}
+.nav__mobile-menu .nav__mobile-sub {
+  font-size: 0.95rem;
+  padding: 0.6rem 0 0.6rem 0.9rem;
+  color: rgba(255,255,255,0.75);
+}
+
+@media (max-width: 900px) {
+  .nav__dropdown { display: none; }
+}

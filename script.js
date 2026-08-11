@@ -228,7 +228,7 @@ function closeAllModals() {
 }
 
 /* ---- Backend API ---- */
-const BACKEND_API_URL = 'https://coliville-backend-626057356331.us-east1.run.app';
+const BACKEND_API_URL = 'https://capitol-backend-vhgyvyjkca-ue.a.run.app';
 const BACKEND_PROJECT_ID = 'emerson';
 
 function sendToBackend(endpoint, payload) {

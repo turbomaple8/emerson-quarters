@@ -168,6 +168,7 @@ PAGE = """<!DOCTYPE html>
     function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
     gtag('config', 'G-NSZQVSN2CF');
+    gtag('config', 'AW-18501735502');
   </script>
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Emerson Quarters">
@@ -264,6 +265,7 @@ POST = """<!DOCTYPE html>
     function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
     gtag('config', 'G-NSZQVSN2CF');
+    gtag('config', 'AW-18501735502');
   </script>
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Emerson Quarters">
@@ -367,6 +369,7 @@ BLOG_INDEX = """<!DOCTYPE html>
     function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
     gtag('config', 'G-NSZQVSN2CF');
+    gtag('config', 'AW-18501735502');
   </script>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Emerson Quarters">

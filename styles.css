@@ -964,3 +964,6 @@ h3 { font-size: clamp(1.3rem, 2.5vw, 1.7rem); }
 @media (max-width: 900px) {
   .nav__dropdown { display: none; }
 }
+
+/* Fair Housing statement — required on rental advertising; kept visible, not hidden. */
+.footer__eho { display: inline-block; margin-left: 0.5rem; padding-left: 0.5rem; border-left: 1px solid currentColor; opacity: 0.9; }

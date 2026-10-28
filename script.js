@@ -219,7 +219,10 @@ function openModal(id) {
 // Phone taps are a conversion too, and on mobile they are often the only one.
 document.addEventListener('click', function (e) {
   const tel = e.target.closest && e.target.closest('a[href^="tel:"]');
-  if (tel) track('contact_phone', { method: 'phone' });
+  if (tel) {
+    track('contact_phone', { method: 'phone' });
+    try { if (typeof fbq === 'function') fbq('track', 'Contact', { method: 'phone' }); } catch (e) {}
+  }
 });
 
 function closeAllModals() {
@@ -247,11 +250,30 @@ function sendToBackend(endpoint, payload) {
 const MAIL_ENDPOINT = '/api/lead';
 
 function sendToEmail(kind, fields) {
-  fetch(MAIL_ENDPOINT, {
+  return fetch(MAIL_ENDPOINT, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ kind: kind, fields: fields, replyTo: fields.Email || '' })
-  }).catch(() => {});
+  }).catch(() => null);
+}
+
+/* A lead only counts once the mailbox accepted it. Before this, the GA4 event
+   fired on submit regardless of delivery (B-27 class), so a broken endpoint
+   still produced "leads" in every ad platform. recordLead() waits for the
+   /api/lead response: res.ok -> GA4 lead_* + Meta Pixel Lead; otherwise a
+   lead_failed diagnostic event and no conversion. Delivery to the Capitol
+   backend is fire-and-forget and is not a condition. */
+function recordLead(sent, name, params) {
+  Promise.resolve(sent).then(function (res) {
+    if (res && res.ok) {
+      track(name, params);
+      try {
+        if (typeof fbq === 'function') fbq('track', 'Lead', { content_name: params && params.lead_type ? params.lead_type : name });
+      } catch (e) { /* never break the form */ }
+    } else {
+      track('lead_failed', Object.assign({ status: res ? res.status : 'network' }, params || {}));
+    }
+  });
 }
 
 /* ---- Form Handling ---- */
@@ -270,15 +292,13 @@ function handleTourForm(e) {
     sourceWebsite: 'emersonq.com', city: 'Seattle'
   });
 
-  sendToEmail('tour', {
+  recordLead(sendToEmail('tour', {
     Name: (data.get('name') || '').trim(),
     Email: data.get('email') || '',
     Phone: data.get('phone') || '',
     'Preferred Date': data.get('date') || '',
     Message: data.get('message') || ''
-  });
-
-  track('lead_tour', { lead_type: 'tour' });
+  }), 'lead_tour', { lead_type: 'tour' });
 
   form.innerHTML = `
     <div class="success-message">
@@ -303,7 +323,7 @@ function handleApplyForm(e) {
     sourceWebsite: 'emersonq.com', city: 'Seattle'
   });
 
-  sendToEmail('apply', {
+  recordLead(sendToEmail('apply', {
     Name: `${data.get('firstName') || ''} ${data.get('lastName') || ''}`.trim(),
     Email: data.get('email') || '',
     Phone: data.get('phone') || '',
@@ -311,9 +331,7 @@ function handleApplyForm(e) {
     'Move-in Date': data.get('moveIn') || '',
     'Lease Duration': data.get('duration') || '',
     'About': data.get('message') || ''
-  });
-
-  track('lead_apply', { lead_type: 'apply' });
+  }), 'lead_apply', { lead_type: 'apply' });
 
   form.innerHTML = `
     <div class="success-message">
@@ -343,16 +361,14 @@ function handleReserveForm(e) {
     roomName: room || null, sourceWebsite: 'emersonq.com', city: 'Seattle'
   });
 
-  sendToEmail('reserve', {
+  recordLead(sendToEmail('reserve', {
     Name: fullName,
     Email: email || '',
     Phone: phone || '',
     'Move-in Date': moveIn || '',
     Property: property,
     Room: room
-  });
-
-  track('lead_reserve', { lead_type: 'reserve', room_name: room || '(any)' });
+  }), 'lead_reserve', { lead_type: 'reserve', room_name: room || '(any)' });
 
   const ctx = document.getElementById('reserveContext');
   if (ctx) ctx.style.display = 'none';
@@ -397,6 +413,7 @@ function handleReserveForm(e) {
       // conversion — otherwise a WhatsApp enquiry cannot be attributed to the
       // guide that produced it.
       track('whatsapp_click', { link_url: WHATSAPP_URL, method: 'whatsapp' });
+      try { if (typeof fbq === 'function') fbq('track', 'Contact', { method: 'whatsapp' }); } catch (e) {}
     });
     document.body.appendChild(a);
   }

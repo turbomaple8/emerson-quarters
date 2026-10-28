@@ -207,6 +207,22 @@ function track(name, params) {
   } catch (e) { /* analytics is never allowed to break the form */ }
 }
 
+/* Google Ads conversion actions (account 525-408-9217, tag AW-18501735502).
+   One label per action; created 2026-10-28. Fired only where the GA4 event
+   fires, so Google Ads counts a lead under the same delivery rule as GA4. */
+const ADS_CONVERSIONS = {
+  lead: 'AW-18501735502/GVbkCNXbiK0dEM6oqPZE',
+  whatsapp: 'AW-18501735502/FITICNjbiK0dEM6oqPZE',
+  phone: 'AW-18501735502/k2n1CNvbiK0dEM6oqPZE'
+};
+
+function adsConversion(label, value) {
+  try {
+    if (typeof gtag !== 'function') return;
+    gtag('event', 'conversion', { send_to: label, value: value, currency: 'USD' });
+  } catch (e) { /* never break the form */ }
+}
+
 function openModal(id) {
   const modal = document.getElementById(id);
   if (modal) {
@@ -222,6 +238,7 @@ document.addEventListener('click', function (e) {
   if (tel) {
     track('contact_phone', { method: 'phone' });
     try { if (typeof fbq === 'function') fbq('track', 'Contact', { method: 'phone' }); } catch (e) {}
+    adsConversion(ADS_CONVERSIONS.phone, 0);
   }
 });
 
@@ -270,6 +287,7 @@ function recordLead(sent, name, params) {
       try {
         if (typeof fbq === 'function') fbq('track', 'Lead', { content_name: params && params.lead_type ? params.lead_type : name });
       } catch (e) { /* never break the form */ }
+      adsConversion(ADS_CONVERSIONS.lead, 480);
     } else {
       track('lead_failed', Object.assign({ status: res ? res.status : 'network' }, params || {}));
     }
@@ -414,6 +432,7 @@ function handleReserveForm(e) {
       // guide that produced it.
       track('whatsapp_click', { link_url: WHATSAPP_URL, method: 'whatsapp' });
       try { if (typeof fbq === 'function') fbq('track', 'Contact', { method: 'whatsapp' }); } catch (e) {}
+      adsConversion(ADS_CONVERSIONS.whatsapp, 0);
     });
     document.body.appendChild(a);
   }

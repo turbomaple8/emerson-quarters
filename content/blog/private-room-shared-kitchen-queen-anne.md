@@ -1,6 +1,6 @@
 ---
 url: /blog/private-room-shared-kitchen-queen-anne/
-title: "Private Room, Shared Kitchen: Daily Life in a Queen Anne, Seattle Co-Living Unit"
+title: "Private Room, Shared Kitchen: Daily Life in a Queen Anne, Seattle Shared Apartment"
 description: "What shared living at Emerson Quarters is actually like day to day — who is in the unit, how the kitchen and bathroom work, and what stays yours alone."
 h1: "Private Room, Shared Kitchen: What Daily Life Is Actually Like in Queen Anne, Seattle"
 date: 2026-08-10
@@ -14,11 +14,11 @@ Listings answer the wrong version of that question. They describe the room. The 
 
 ## Who is actually here
 
-The mix is students, interns, and people early in their careers — and unusually, it moves through the year on a rhythm you can predict.
+The mix is SPU students and working professionals, most of them early in their careers. Everyone signs their own twelve-month lease for their own room.
 
-Seattle Pacific University is a three-minute walk away and runs on **quarters**, not semesters: Autumn begins late September, Winter early January, Spring late March. That shows up in the building. Instead of one big changeover every September, there is turnover around each quarter boundary. Then summer looks different again, as students leaving for the break overlap with people in Seattle for an internship.
+Seattle Pacific University is a three-minute walk away and runs on **quarters**, not semesters: Autumn begins late September, Winter early January, Spring late March. That shows up in the building's daily rhythm, in class timetables, midterms and finals, while the working residents keep office hours all year.
 
-The practical effect is the one that matters if you are the new person: **there is no single cohort that formed in September and closed ranks.** People arrive at several points in the year. Whoever moved in eight weeks before you was also the new person recently, and remembers it.
+The practical effect is the one that matters if you are the new person: **there is no single cohort that formed in September and closed ranks.** Residents' leases start at different points in the year, so most of your housemates remember being the new person themselves.
 
 ## The kitchen, honestly
 
@@ -66,4 +66,4 @@ Rooms start at **$895 a month**, including water, electricity, heat, garbage and
 
 For comparison: apartment rents in Queen Anne commonly run $3,400 to $5,200. That gap is why this arrangement exists in this neighbourhood at all.
 
-Want to see it before deciding? Book a tour on the site or call **(253) 263-0612**. Instant Reservation will hold a room for 24 hours with no payment and no obligation.
+Want to see it before deciding? Schedule a tour on the site or call **(253) 263-0612**. Hold a Room puts a free 24-hour hold on a room, no payment, while you apply.

@@ -18,7 +18,7 @@ A building three minutes from Seattle Pacific is not only students.
 
 **Students** run on SPU's timetable, which is a quarter system — ten-week terms with Autumn from late September, Winter from early January, Spring from late March. Classes scatter through the day, with early starts some days and nothing until afternoon on others.
 
-**Working residents** — people early in their careers, interns on a summer stint, anyone commuting to downtown or South Lake Union — are on office hours. Out around eight or nine, back around six, same shape every weekday.
+**Working residents**, people early in their careers and anyone commuting to downtown or South Lake Union, are on office hours. Out around eight or nine, back around six, same shape every weekday.
 
 Those two patterns barely overlap, and that is the whole point.
 
@@ -56,7 +56,7 @@ Honestly:
 
 **Weekends diverge.** The office-hours half of the building treats Saturday as a day off; the student half may be working through a Saturday in week nine. Expect the common space to feel different at the weekend than it does midweek.
 
-**The quarter boundaries.** Three times a year the student rhythm resets and the building's pattern changes with it. The first week of January in particular is a change-of-cast moment, as Autumn-quarter leavers go and Winter-quarter arrivals come in. Worth reading as the calendar doing its thing rather than the building changing character.
+**The quarter boundaries.** Three times a year the student rhythm resets and the building's pattern changes with it. The first week of January in particular feels different, as students come back from the break onto a new timetable. Worth reading as the calendar doing its thing rather than the building changing character.
 
 ## What makes it workable regardless
 
@@ -72,4 +72,4 @@ Rooms start at **$895 a month** including water, electricity, heat, garbage and 
 
 That removes the one piece of shared living that genuinely does not resolve itself: splitting a bill when one person was away half the month and another ran the heat continuously. There is nothing to split, so there is nothing to discuss.
 
-Want to see who is actually in a unit before deciding? Ask on the call — **(253) 263-0612** — or book a tour. Instant Reservation holds a room for 24 hours with no payment and no obligation while you think.
+Want to see who is actually in a unit before deciding? Ask on the call, **(253) 263-0612**, or schedule a tour. Hold a Room puts a free 24-hour hold on a room, no payment, while you apply.

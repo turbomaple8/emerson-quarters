@@ -52,7 +52,7 @@ On a quarter system this compounds. SPU runs ten-week quarters — Autumn from l
 - **Downtown Seattle and Seattle Center**: around ten minutes by car
 - **South Lake Union**: close enough that residents working there generally do not keep a car
 
-That last point matters if you are a student who also works, or if you stay through a summer internship. Queen Anne is one of the few places you can be genuinely walkable to SPU *and* a short trip from the downtown employers.
+That last point matters if you are a student who also works, or if you keep your room and take a summer job. Queen Anne is one of the few places you can be genuinely walkable to SPU *and* a short trip from the downtown employers.
 
 ## Questions to ask about any "near SPU" listing
 
@@ -65,6 +65,6 @@ That last point matters if you are a student who also works, or if you stay thro
 
 Distance to SPU is not a number. It is a question of the canal, the hill, and the weather — and a listing that says "close to campus" without addressing all three has not answered you.
 
-Rooms at Emerson Quarters start at $895 a month, furnished, with water, electricity, heat, garbage and WiFi included, on individual leases. Three minutes to campus, no bridge, no climb.
+Rooms at Emerson Quarters start at $895 a month, furnished, with water, electricity, heat, garbage and WiFi included, on individual twelve-month leases. Three minutes to campus, no bridge, no climb.
 
-Come and walk it yourself before deciding — book a tour on the site or call **(253) 263-0612**. Instant Reservation will hold a room for 24 hours with no payment and no obligation while you think.
+Come and walk it yourself before deciding. Schedule a tour on the site or call **(253) 263-0612**. Hold a Room is a free 24-hour hold on a room, with no payment, while you apply.

@@ -22,7 +22,7 @@ At a semester school the same pressure exists but spreads over fifteen weeks and
 
 ## The useful consequence: not everyone is on that calendar
 
-A building near SPU is not only students. The mix includes interns and people early in their careers working downtown or in South Lake Union, who are on office hours and an entirely different rhythm.
+A building near SPU is not only students. The mix includes people early in their careers working downtown or in South Lake Union, who are on office hours and an entirely different rhythm.
 
 That is better for studying than an all-student house, for a boring reason: the quiet hours do not collide. Working residents are out from roughly nine to six. Students on a quarter timetable are in and out around classes. The unit is rarely full and rarely empty, which means the kitchen and the common space are usually available to whoever needs them.
 
@@ -72,4 +72,4 @@ If you can work in your own room with a door shut, and walk to the library when 
 
 Emerson Quarters, 608 W Emerson St — three minutes from SPU, on the campus side of the ship canal. Private furnished bedrooms with a desk and chair, shared full kitchen, on-site laundry, many units with balconies. Rooms from **$895 a month**, water, electricity, heat, garbage and WiFi included, individual leases.
 
-Come and see a room before a quarter starts: book a tour or call **(253) 263-0612**. Instant Reservation holds one for 24 hours, no payment, no obligation.
+Come and see a room before a quarter starts: schedule a tour or call **(253) 263-0612**. Hold a Room puts a free 24-hour hold on a room, no payment, while you apply.

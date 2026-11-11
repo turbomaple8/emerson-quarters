@@ -18,11 +18,11 @@ Almost every "studying in the US" guide is written for semester schools — a lo
 
 SPU runs **quarters**: Autumn from late September, Winter from early January, Spring from late March. Three starts a year, each about ten weeks.
 
-Two consequences that matter before you book anything:
+Two consequences that matter before you commit to anything:
 
 **Your search window is earlier than the term date suggests.** If you are starting Winter quarter in January, the time to be looking is **late October through November** — not late December. Rooms within walking distance of campus go to people who searched a quarter ahead.
 
-**A ten-week term does not match a six- or twelve-month lease.** This is the single most common planning mistake. Your academic commitment arrives in ten-week blocks; housing does not. Decide early whether you are staying through summer, because a twelve-month lease signed in September runs through a summer you may not be in Seattle for.
+**A ten-week term does not match a twelve-month lease.** This is the single most common planning mistake. Your academic commitment arrives in ten-week blocks; housing does not. Plan for the summer early, because a twelve-month lease signed in September runs through it. Many students keep the room and work in Seattle.
 
 ## Second: learn the two obstacles before you pick a neighbourhood
 
@@ -38,9 +38,9 @@ The practical test for any "near SPU" listing: **same side of the canal, off the
 
 If you are flying in with suitcases, an empty room is a problem that takes two weeks and several hundred dollars to solve — bed, mattress, desk, chair, storage, lamp, bedding — before you can properly sleep there. At the end, you sell it for a fraction or give it away.
 
-A furnished room removes that entirely. At Emerson Quarters the room comes with a bed, desk, chair, nightstand, storage and a wall-mounted TV, with a shared full kitchen in the unit. You arrive with a suitcase and leave with one.
+A furnished room removes that entirely. At Emerson Quarters the room comes with a bed, desk, chair, nightstand, storage and a wall-mounted TV, with a shared full kitchen in the unit. You arrive with a suitcase and the room is ready.
 
-For a stay measured in quarters, that is almost always the better trade.
+For a student arriving from abroad, that is almost always the better trade.
 
 ## Fourth: the money question, answered plainly
 
@@ -71,4 +71,4 @@ Two practical consequences for an international student: you need somewhere for 
 
 Emerson Quarters is at 608 W Emerson St — about a three-minute walk from SPU, on the campus side of the ship canal, off the steep face of the hill. Queen Anne Avenue's shops are around eight minutes on foot, Metro stops about two, downtown roughly ten minutes by car.
 
-If your dates are unusual — a single quarter, a January start, an uncertain arrival date while a visa is processed — ask directly rather than assuming from the standard terms. Call **(253) 263-0612**, or use Instant Reservation to hold a room for 24 hours with no payment and no obligation while you sort out the rest.
+Leases are twelve months, and each resident signs their own lease for their own room. If you want a January lease start, or your arrival date is uncertain while a visa is processed, say so when you call. Call **(253) 263-0612**, or use Hold a Room, a free 24-hour hold on a room with no payment while you apply.

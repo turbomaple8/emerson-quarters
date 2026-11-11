@@ -1,14 +1,14 @@
 ---
 url: /blog/slu-or-redmond-where-to-live-seattle/
 title: "South Lake Union or Redmond? What Your Seattle Office Means for Where You Live"
-description: "A Seattle internship in South Lake Union and one in Redmond are different housing problems. The bridge, the reverse commute, and what ninety hours costs you."
+description: "A Seattle job in South Lake Union and one in Redmond are different housing problems. The bridge, the reverse commute, and what 360 hours a year costs you."
 h1: "South Lake Union or Redmond? What Your Seattle Office Means for Where You Live"
 date: 2026-10-20
-pillar: P1
-hub_url: /seattle-intern-housing/
+pillar: P3
+hub_url: /rooms-for-rent-seattle/
 ---
 
-Two Seattle internships with the same salary can produce very different summers, and the variable is not the room. It is which side of a lake your office is on.
+Two Seattle jobs with the same salary can produce very different years, and the variable is not the room. It is which side of a lake your office is on.
 
 Seattle is cut up by water and hills rather than laid out on a grid, so "twenty minutes away" means almost nothing until you know what sits in between. Here is what each office location actually asks of you.
 
@@ -33,7 +33,7 @@ There is one genuine advantage and it is counterintuitive: **you would be revers
 That is real, and it is better than the alternative. But be honest about the rest:
 
 - It is still a bridge crossing, and a bridge has no alternative route when something goes wrong
-- It is twice a day for the length of your stay
+- It is twice a day for as long as you hold the job
 - Your evenings are shaped by it in a way an SLU commute's are not
 
 If your office is in Redmond, the decision is genuinely open: living on the Eastside removes the bridge but puts you away from the city you came to be in. Plenty of people choose the bridge deliberately. Just choose it rather than discovering it.
@@ -46,9 +46,9 @@ Queen Anne is one of the few residential neighbourhoods genuinely close to the c
 
 ## The number that settles most of this
 
-Over a twelve-week internship, **forty-five minutes each way is about ninety hours** — more than two full working weeks of your time in Seattle spent travelling.
+**Forty-five minutes each way, five days a week, over about 48 working weeks, is roughly 360 hours a year.** That is about nine working weeks of your time spent travelling.
 
-Put that against the monthly difference between a cheap room far out and a closer one. On a stay this short, the arithmetic is rarely close. Paying somewhat more to be close is usually the better trade, and the mistake people make is optimising for rent and inheriting a commute they then live with for three months.
+Put that against the monthly difference between a cheap room far out and a closer one. Over a twelve-month lease, the arithmetic is rarely close. Paying somewhat more to be close is usually the better trade, and the mistake people make is optimising for rent and inheriting a commute they then live with all year.
 
 ## The two obstacles nobody mentions in a listing
 
@@ -64,7 +64,7 @@ Whatever office you are heading to, check these before you commit to an address.
 
 If you are weighing a Seattle offer against New York or California, compare take-home, not the headline.
 
-**Washington has no state income tax.** New York charges state *and* city income tax on top of federal; California charges state. Here you pay neither. On an intern salary that difference is real money, and it lands in your account rather than in a calculation you never see.
+**Washington has no state income tax.** New York charges state *and* city income tax on top of federal; California charges state. Here you pay neither. On an early-career salary that difference is real money, and it lands in your account rather than in a calculation you never see.
 
 Seattle rents look high until you run that comparison, at which point the ordering frequently changes.
 
@@ -72,8 +72,8 @@ Seattle rents look high until you run that comparison, at which point the orderi
 
 Rooms at Emerson Quarters start at **$895 a month** — a private furnished bedroom with bed, desk, chair, storage and a wall-mounted TV, plus water, electricity, heat, garbage and high-speed WiFi. Shared full kitchen, on-site laundry, on-site parking if you want it.
 
-For a twelve-week stay that matters more than for a year: nothing to buy, nothing to set up, no utility accounts to open and close, nothing to dispose of when you fly home.
+If you are relocating for a job, that matters: nothing to buy, nothing to set up and no utility accounts to open.
 
-Standard leases run six or twelve months with shorter terms sometimes available. **If your dates are an internship rather than an academic year, ask directly** — call **(253) 263-0612**, or use Instant Reservation to hold a room for 24 hours with no payment while we work out whether the dates fit.
+Leases are twelve months. Each resident signs their own lease for their own room and pays rent monthly, and there are no nightly, weekly or short-term rentals. To see a room, call **(253) 263-0612**, or use Hold a Room, a free 24-hour hold on a room with no payment while you apply.
 
-Offers for next summer are landing now. Asking in October leaves you months of runway; asking in March does not.
+If you already know your start date, ask early. The rooms closest to the offices you care about go first.

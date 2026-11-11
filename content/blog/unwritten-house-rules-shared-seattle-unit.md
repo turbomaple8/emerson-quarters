@@ -36,13 +36,13 @@ Specific to here, and specific to the season.
 
 **Wet things have a place and it is not the hallway.** It rains lightly and continuously from November through March. Coats, shoes, bags — all damp most days. Whatever spot the unit has settled on, use it. If there is not one yet, you are the person who gets to suggest it, and November is the month to do it.
 
-**Do not run the heat against an open window.** The heat runs more or less continuously through a Seattle winter. The rate at Emerson Quarters includes water, electricity, heat and garbage, so no bill lands on anyone — which makes this a courtesy rather than a cost argument, and it is still the norm.
+**Do not run the heat against an open window.** The heat runs more or less continuously through a Seattle winter. The rent at Emerson Quarters includes water, electricity, heat and garbage, so no bill lands on anyone — which makes this a courtesy rather than a cost argument, and it is still the norm.
 
 **On-site laundry is shared, so do not leave a finished load.** The building has it, which means wet clothes never leave the building or go up the Queen Anne hill — but a machine with someone's dry washing sitting in it is the most reliable way to annoy a housemate.
 
 ## The ones about people
 
-**Guests are fine; guests who become residents are not.** Every unit has a line here and almost nobody states it. Ask the policy early — it varies by operator, and it is better as a question than as a discovery.
+**Visitors are fine; visitors who become residents are not.** Every unit has a line here and almost nobody states it. Ask your property manager about the policy early. It is better as a question than as a discovery.
 
 **You are not obliged to be friends.** Shared living works perfectly well between people who are merely considerate. Forcing closeness in week one more often produces polite avoidance by week six. Aim for easy.
 
@@ -70,4 +70,4 @@ And the rules do not extend to money. You sign for your own room and pay your ow
 
 ## Seeing a unit
 
-The fastest way to read a building's actual norms is to stand in it. Book a tour, look at the kitchen, and ask who is in the unit — call **(253) 263-0612**, or hold a room for 24 hours with Instant Reservation while you think, no payment and no obligation.
+The fastest way to read a building's actual norms is to stand in it. Schedule a tour, look at the kitchen, and ask who is in the unit. Call **(253) 263-0612**, or use Hold a Room, a free 24-hour hold on a room, no payment, while you apply.

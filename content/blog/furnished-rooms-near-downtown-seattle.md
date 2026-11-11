@@ -36,11 +36,11 @@ So "near downtown" is only meaningful once you know the route, not the distance.
 
 Apartment rents in Queen Anne commonly run **$3,400 to $5,200 a month**. That is the price of the neighbourhood, and it is why most people who want to be here and are not already established do not rent an apartment here.
 
-A room is the exception to that pricing. Co-living rooms across Seattle average around **$880 a month**; Emerson Quarters starts at **$895** — essentially the citywide rate, in a neighbourhood that charges a premium for everything else.
+A room is the exception to that pricing. Rooms in shared apartments across Seattle average around **$880 a month**; Emerson Quarters starts at **$895** — essentially the citywide rate, in a neighbourhood that charges a premium for everything else.
 
 That gap is the entire argument. **The room rate barely reflects the postcode; the apartment rate reflects little else.**
 
-What $895 covers: a private furnished bedroom with bed, desk, chair, nightstand, storage and wall-mounted TV, plus water, electricity, heat, garbage and high-speed WiFi. Shared full kitchen, on-site laundry, on-site parking available. Individual lease — your room's rent, not the unit's.
+What $895 covers: a private furnished bedroom with bed, desk, chair, nightstand, storage and wall-mounted TV, plus water, electricity, heat, garbage and high-speed WiFi. Shared full kitchen, on-site laundry, on-site parking available. Individual twelve-month lease: your room's rent, not the unit's.
 
 ## When Queen Anne is the wrong answer
 
@@ -64,4 +64,4 @@ For 608 W Emerson St the answer is: nothing between here and downtown or South L
 
 ## Seeing it
 
-Rooms from **$895 a month** at 608 W Emerson St. Book a tour and walk the route yourself before you decide — that is the only version of this question that settles properly. Call **(253) 263-0612**, or hold a room for 24 hours with Instant Reservation while you think, no payment and no obligation.
+Rooms from **$895 a month** at 608 W Emerson St. Schedule a tour and walk the route yourself before you decide. That is the only version of this question that settles properly. Call **(253) 263-0612**, or use Hold a Room, a free 24-hour hold on a room with no payment, while you apply.

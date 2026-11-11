@@ -14,7 +14,7 @@ If you are starting at Seattle Pacific in January — as a transfer, after a lea
 
 Seattle Pacific runs **quarters**: Autumn from late September, Winter from early January, Spring from late March. Three starts a year.
 
-That single fact changes your position entirely. At a semester school, almost everyone moves in August and the housing stock empties once; arriving in January means taking whatever nobody wanted. On a quarter system, buildings near campus turn over at **each quarter boundary**. Someone finishes their programme in December. Someone goes home after Autumn. Someone's internship ends.
+That single fact changes your position entirely. At a semester school, almost everyone moves in August and the housing stock empties once; arriving in January means taking whatever nobody wanted. On a quarter system, people start in January and March as well as September, so in buildings near campus residents' leases start at **different points in the year**, and rooms come available outside the autumn rush.
 
 So the vacancy you need exists for the same ordinary reason an August one does.
 
@@ -22,7 +22,7 @@ Two practical consequences:
 
 **Ask directly instead of filtering yourself out.** The most common mistake is assuming a mid-year start is impossible and not asking. Buildings that run individual room leases rather than one big September lease-up can usually accommodate January.
 
-**You will not be the only new person.** This is the social half, and it matters more than people expect. In a building that turns over three times a year, nobody has formed a closed group in September. Whoever moved in eight weeks before you remembers being new.
+**You will not be the only new person.** This is the social half, and it matters more than people expect. In a building where leases start at different points in the year, nobody has formed a closed group in September. Whoever moved in before you remembers being new.
 
 ## The timing: look now, not in December
 
@@ -50,18 +50,18 @@ That gap is why renting by the room works in this neighbourhood at all — and i
 
 The practical mid-year advantage: there is no setup cost to absorb in the middle of an academic year. The room is furnished — bed, desk, chair, nightstand, storage, wall-mounted TV — with a shared full kitchen in the unit. You move in with a suitcase in the first week of January and start Winter quarter, rather than spending week one assembling furniture.
 
-## The lease-length question to raise on the call
+## The lease length to plan around
 
-Standard terms are six or twelve months, with shorter sometimes available depending on availability.
+Leases are twelve months. Each resident signs their own lease for their own room, and there are no nightly, weekly or short-term rentals.
 
-Here is the thing worth thinking through before you call: a January start on a six-month lease ends around the end of June. That covers Winter and Spring quarters cleanly and leaves summer open. A twelve-month lease from January runs to the following December, which covers the next Autumn quarter too.
+Here is the thing worth thinking through before you call: a twelve-month lease from January runs to the following December. That covers Winter and Spring quarters, the summer, and the next Autumn quarter too.
 
-Neither is automatically right. What matters is deciding which shape you want **before** the conversation, so you are asking for something specific rather than accepting the default.
+Plan for the summer **before** you sign, because the lease runs through it. Many students keep the room and work in Seattle.
 
 ## A short checklist for a January move
 
 - **Now (late Oct–Nov):** shortlist, ask about January availability directly, confirm which side of the canal
-- **Late Nov:** decide and hold
+- **Late Nov:** decide and apply
 - **December:** confirm move-in date, arrange arrival
 - **First week of January:** move in, walk your route to campus once in the actual weather, claim a shelf in the kitchen
 - **Week one or two:** tell your housemates roughly when your finals fall — week ten arrives fast on a ten-week quarter
@@ -70,4 +70,4 @@ Neither is automatically right. What matters is deciding which shape you want **
 
 Emerson Quarters, 608 W Emerson St — about a three-minute walk from SPU, on the campus side of the ship canal, off the steep face of the hill. On-site laundry, so wet winter clothes never leave the building. Metro stops about two minutes away; downtown roughly ten by car.
 
-If your dates are January, say so when you call — **(253) 263-0612** — or use Instant Reservation to hold a room for 24 hours with no payment while you work it out.
+If your dates are January, say so when you call — **(253) 263-0612** — or use Hold a Room, a free 24-hour hold on a room with no payment while you apply.

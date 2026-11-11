@@ -4,11 +4,11 @@ title: "Commuting From Queen Anne, Seattle: South Lake Union, Downtown and Redmo
 description: "What the commute from Queen Anne actually looks like to South Lake Union, downtown Seattle and Redmond — bridges, hills, and why direction matters here."
 h1: "Commuting From Queen Anne, Seattle: South Lake Union, Downtown and Redmond"
 date: 2026-08-10
-pillar: P1
-hub_url: /seattle-intern-housing/
+pillar: P3
+hub_url: /rooms-for-rent-seattle/
 ---
 
-If you are moving to Seattle for a summer internship or a first job, the decision that shapes your months here is not the room. It is where the room is relative to the office — and Seattle punishes that choice more than most cities, because it is cut up by water and hills rather than laid out on a grid.
+If you are moving to Seattle for a job, the decision that shapes your time here is not the room. It is where the room is relative to the office — and Seattle punishes that choice more than most cities, because it is cut up by water and hills rather than laid out on a grid.
 
 Here is what the commute from Queen Anne actually looks like to the three places people usually work.
 
@@ -32,7 +32,7 @@ Microsoft and much of the Eastside are in Redmond, which is across Lake Washingt
 
 There is one genuine saving grace, and it is worth understanding because it is counterintuitive: **you would be reverse-commuting.** The heavy morning flow is westbound, *into* Seattle. Going eastbound in the morning and westbound in the evening puts you against the direction of the queue rather than in it. You will spend a fair amount of your commute looking across the barrier at traffic that is not moving.
 
-It is still a bridge crossing twice a day, and bridges over water have no alternative route when something goes wrong. If your office is in Redmond, be honest with yourself about whether you want a lake between you and your bed for twelve weeks.
+It is still a bridge crossing twice a day, and bridges over water have no alternative route when something goes wrong. If your office is in Redmond, be honest with yourself about whether you want a lake between you and your bed every working day.
 
 ## The two obstacles nobody mentions in listings
 
@@ -44,15 +44,15 @@ It is still a bridge crossing twice a day, and bridges over water have no altern
 
 ## The arithmetic worth doing
 
-The mistake people make on a short stay is optimising for rent and inheriting a commute.
+The mistake people make is optimising for rent and inheriting a commute.
 
-Over a twelve-week internship, forty-five minutes each way is roughly **ninety hours** — more than two full working weeks of your time in Seattle, spent in transit. On a stay that short, paying somewhat more to be close is almost always the better trade, and the maths does not need to be close for it to hold.
+Forty-five minutes each way, five days a week, over about 48 working weeks, is roughly **360 hours a year**. That is about nine working weeks of your time, spent in transit. Over a twelve-month lease, paying somewhat more to be close is almost always the better trade, and the maths does not need to be close for it to hold.
 
 ## One piece of Seattle arithmetic in your favour
 
 If you are comparing a Seattle offer against one in New York or California, do not compare the headline salary. **Washington has no state income tax.**
 
-In New York you would be paying state *and* city income tax on top of federal. Here you pay neither. On an intern salary that difference is real money, and it lands in your account rather than in a calculation you never see.
+In New York you would be paying state *and* city income tax on top of federal. Here you pay neither. On an early-career salary that difference is real money, and it lands in your account rather than in a calculation you never see.
 
 Run your numbers on take-home against rent, not gross against rent. Seattle rents look high until you do.
 
@@ -60,6 +60,6 @@ Run your numbers on take-home against rent, not gross against rent. Seattle rent
 
 Rooms at Emerson Quarters start at **$895 a month** — a private furnished bedroom with bed, desk, chair, storage and a wall-mounted TV, plus water, electricity, heat, garbage and high-speed WiFi. Shared full kitchen, on-site laundry, on-site parking if you want it.
 
-For a short stay that matters more than for a long one: nothing to buy, nothing to set up, no utility accounts to open and close, nothing to dispose of when you fly home. You arrive with a suitcase and you leave with one.
+If you are relocating for a job, that matters: nothing to buy, nothing to set up and no utility accounts to open. You can arrive with a suitcase and start work.
 
-Standard leases run six or twelve months, with shorter terms sometimes available depending on availability. **If your dates are an internship rather than an academic year, ask about them directly** — call **(253) 263-0612** or use Instant Reservation, which holds a room for 24 hours with no payment while we work out whether the dates fit.
+Leases are twelve months. Each resident signs their own lease for their own room and pays rent monthly, and there are no nightly, weekly or short-term rentals. To see a room, call **(253) 263-0612**, or use Hold a Room, a free 24-hour hold on a room with no payment while you apply.

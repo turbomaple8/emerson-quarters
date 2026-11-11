@@ -14,9 +14,9 @@ SPU runs on **quarters**. Autumn begins in late September, Winter in early Janua
 
 ## The mismatch nobody warns you about
 
-Here is the awkward arithmetic at the centre of off-campus life at SPU: **your academic commitments arrive in ten-week blocks, and rental commitments do not.** Leases are six or twelve months. There is no such thing as a ten-week lease in the general Seattle market.
+Here is the awkward arithmetic at the centre of off-campus life at SPU: **your academic commitments arrive in ten-week blocks, and rental commitments do not.** Leases are twelve months. There is no such thing as a ten-week lease.
 
-That gap is the thing to plan around. It is why students end up either paying through a quarter they are not enrolled in, or scrambling in the middle of the academic year for something short.
+That gap is the thing to plan around. A twelve-month lease covers the summer as well as the three quarters, so budget for the full year from the start.
 
 ## Autumn quarter: look in spring, not September
 
@@ -32,7 +32,7 @@ This is where the quarter system genuinely helps you.
 
 At a semester school, arriving in January is unusual. Housing stock is thin, most leases started in August, and you are joining something already formed. On a quarter system, **January is a normal start**. Transfers arrive. Students come back from a leave. People change plans between Autumn and Winter.
 
-Practically: if your timing is January, do not assume you are the exception. Ask directly about a January move-in rather than filtering it out yourself. Buildings that run on individual room leases turn over at quarter boundaries, so the vacancy you need may exist for exactly the reason your semester-school friends find strange.
+Practically: if your timing is January, do not assume you are the exception. Ask directly about a January move-in rather than filtering it out yourself. In buildings that run on individual room leases, residents' leases start at different points in the year, so the January vacancy you need may well exist, however strange your semester-school friends find it.
 
 Look in **late October through November** for a January start.
 
@@ -40,17 +40,13 @@ Look in **late October through November** for a January start.
 
 Spring begins in late March, and the search window — roughly **late January to February** — is the least competitive of the three. Fewer people move at that point in the year. If you have flexibility about when you start, this is the easiest quarter to house yourself well.
 
-## Summer: the gap that catches people out
+## Summer: the part to plan for
 
 Summer is where the ten-week-versus-twelve-month problem becomes real money.
 
-If you signed a twelve-month lease starting in September, you are paying through a summer you may not be in Seattle for. If you signed six months, it ends around March and you need something else for Spring quarter.
+A twelve-month lease runs through the summer, whichever quarter it starts in. Plan for that before you sign, not in May.
 
-Three ways people handle it, none perfect:
-
-- **Stay and work.** Seattle has a large summer internship market, and a lot of students simply keep the room and take a job. Emerson Quarters sits between campus and the downtown/South Lake Union employers, which makes this the least disruptive option.
-- **Sublet.** Common, but you are responsible for finding someone and for the arrangement working.
-- **Time the lease to the academic year.** Ask about lease start and end dates before you sign, rather than accepting the default. This is a conversation, not a fixed menu.
+Many students simply keep the room and work in Seattle. The city has a large summer job market, and Emerson Quarters sits between campus and the downtown/South Lake Union employers, which makes a summer job easy to reach from the room you already have.
 
 ## A calendar you can actually use
 
@@ -59,7 +55,7 @@ Three ways people handle it, none perfect:
 | Autumn (late Sep) | Feb – Apr | The competitive one. Walk-to-campus supply goes first. |
 | Winter (early Jan) | Late Oct – Nov | Normal entry point on a quarter system. Ask directly. |
 | Spring (late Mar) | Late Jan – Feb | Quietest search of the year. |
-| Summer | Mar – Apr | Overlaps the intern housing rush — book earlier than feels necessary. |
+| Summer | Mar – Apr | A busy time for room searches. Start earlier than feels necessary. |
 
 ## Where the walk actually matters
 
@@ -67,6 +63,6 @@ One thing that does not change with the calendar: the geography. SPU sits on the
 
 The set of buildings you can walk from without a bridge or the hill is small. That is why the timing above matters more here than it would at a campus on a flat grid — you are not competing for housing in general, you are competing for a short list.
 
-Emerson Quarters is at 608 W Emerson St, about a three-minute walk from campus, on the same side of the canal, off the steep face of the hill. Rooms start at $895 a month with utilities and WiFi included, on individual leases, standard terms of six or twelve months with shorter sometimes available.
+Emerson Quarters is at 608 W Emerson St, about a three-minute walk from campus, on the same side of the canal, off the steep face of the hill. Rooms start at $895 a month with utilities and WiFi included, on individual twelve-month leases with rent paid monthly.
 
-If your dates are unusual — a single quarter, a January start, a summer gap — that is a question to ask rather than an assumption to make. Call **(253) 263-0612**, or hold a room for 24 hours with no payment through Instant Reservation while you work it out.
+If you want a January or March lease start, that is a question to ask, not an assumption to make. Call **(253) 263-0612**, or use Hold a Room, a free 24-hour hold on a room with no payment while you apply.

@@ -26,13 +26,11 @@ The trade is straightforward and worth stating plainly: **you give up choosing e
 
 ## Who is actually in the building
 
-The mix here is students, interns, and people early in a career — and it moves through the year in a way that is specific to this location.
+The mix here is SPU students and working professionals, mostly people early in a career.
 
-Seattle Pacific University is a three-minute walk away and runs on **quarters**, not semesters: Autumn beginning in late September, Winter in early January, Spring in late March. That rhythm shows up in the building. There is turnover around quarter boundaries rather than one big changeover each September, and January is a normal time for someone new to arrive rather than an odd one.
+Seattle Pacific University is a three-minute walk away and runs on **quarters**, not semesters: Autumn beginning in late September, Winter in early January, Spring in late March. That calendar shows up in the building. Residents' twelve-month leases start at different points in the year rather than all in September, so January is a normal time for someone new to move in rather than an odd one.
 
-Summer looks different again, because the students who leave for the break overlap with people in Seattle for a summer internship.
-
-The practical effect: the building does not have a single fixed cohort that formed in September and closed ranks. People arrive at several points in the year, which makes it considerably easier to be the new person — because someone else was the new person eight weeks ago.
+The practical effect: the building does not have a single fixed cohort that formed in September and closed ranks. Because leases start at different points in the year, it is considerably easier to be the new person.
 
 
 ## How a shared kitchen and bathroom actually work
@@ -58,7 +56,7 @@ The point of the model is that you always have somewhere to close a door. Shared
 
 Rooms start at **$895 a month**. That figure includes water, electricity, heat, garbage, and high-speed WiFi.
 
-You sign for your own room, and you are responsible for your room's rent — not the whole unit's. There is no shared utility account, no monthly negotiation about whose turn it is to pay the internet bill, and no chasing anyone for their share.
+You sign your own twelve-month lease for your own room and pay rent monthly, and you are responsible for your room's rent, not the whole unit's. There is no shared utility account, no monthly negotiation about whose turn it is to pay the internet bill, and no chasing anyone for their share.
 
 That is a product fact rather than a legal one, and it is the practical difference between this and splitting an apartment four ways: **one number, once a month, yours.**
 
@@ -76,13 +74,13 @@ It also is not right if you want to be somewhere loud. Queen Anne is residential
 No. You take a room and matching is handled for you. There is no group to assemble and no search to run.
 
 ### Am I responsible for anyone else's rent?
-No. You sign an individual lease for your own room and you are responsible for your room's rent, not the whole unit's.
+No. You sign an individual twelve-month lease for your own room and you are responsible for your room's rent, not the whole unit's.
 
 ### What do I share, and what is private?
 Your bedroom is private and lockable. You share the kitchen and bathroom with the others in your unit.
 
 ### Who else lives at Emerson Quarters?
-Mostly students, interns, and people early in their careers. Because SPU runs on quarters, people arrive at several points in the year rather than all at once in September.
+Mostly SPU students and working professionals early in their careers. Each resident is on their own twelve-month lease, and because SPU runs on quarters, those leases start at different points in the year rather than all in September.
 
 ### Can I choose my housemates?
 Matching is handled by the team. If living with specific people matters to you, tell us early — it is easier to plan for than to fix later.
@@ -91,4 +89,4 @@ Matching is handled by the team. If living with specific people matters to you, 
 Yes — bed, desk, chair, nightstand, storage, and a wall-mounted TV. You can arrive with a suitcase.
 
 ### Can I visit before deciding?
-Yes. Book a tour on the site or call (253) 263-0612. Instant Reservation will also hold a room for 24 hours with no payment and no obligation.
+Yes. Schedule a tour on the site or call (253) 263-0612. You can also use Hold a Room, a free 24-hour hold on a room, with no payment, while you apply.

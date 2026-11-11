@@ -86,4 +86,4 @@ If you are moving between November and March, the furnished option is not a conv
 
 Emerson Quarters, 608 W Emerson St — three minutes from Seattle Pacific University, on the campus side of the ship canal, off the steep face of the hill. Rooms from **$895 a month**, all-in.
 
-See the actual room before you pack: book a tour or call **(253) 263-0612**. Instant Reservation holds one for 24 hours with no payment and no obligation.
+See the actual room before you pack: schedule a tour or call **(253) 263-0612**. Hold a Room is a free 24-hour hold on a room, with no payment, while you apply.

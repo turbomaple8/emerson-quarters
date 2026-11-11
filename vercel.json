@@ -1,0 +1,124 @@
+{
+  "redirects": [
+    {
+      "source": "/coliving-seattle",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/coliving-seattle/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/seattle-intern-housing",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/seattle-intern-housing/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/coliving-seattle-winter-november-march",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/coliving-seattle-winter-november-march/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/coliving-seattle-working-professionals",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/coliving-seattle-working-professionals/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/coliving-vs-apartment-seattle",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/coliving-vs-apartment-seattle/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/queen-anne-vs-capitol-hill-seattle",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/queen-anne-vs-capitol-hill-seattle/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/queen-anne-vs-south-lake-union-coliving",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/queen-anne-vs-south-lake-union-coliving/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/questions-to-ask-seattle-coliving-operator",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/questions-to-ask-seattle-coliving-operator/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/booking-seattle-intern-housing-from-abroad",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/booking-seattle-intern-housing-from-abroad/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seattle-intern-housing-options-compared",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seattle-intern-housing-options-compared/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seattle-internship-pay-after-housing",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seattle-internship-pay-after-housing/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/when-to-book-seattle-intern-housing",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/when-to-book-seattle-intern-housing/",
+      "destination": "/rooms-for-rent-seattle/",
+      "permanent": true
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 ---
 url: /spu-student-housing/
 title: "Student Housing Near Seattle Pacific University | Emerson Quarters"
-description: "Furnished rooms a 3-minute walk from Seattle Pacific University, in Queen Anne, Seattle. From $895/month, utilities included, individual leases."
+description: "Furnished rooms a 3-minute walk from Seattle Pacific University, in Queen Anne, Seattle. From $895/month, utilities included, individual 12-month leases."
 h1: "Student Housing Near Seattle Pacific University: The Off-Campus Guide for Queen Anne, Seattle"
 pillar: P2 (student housing)
 ---
@@ -36,9 +36,9 @@ Three practical consequences:
 
 **January is a genuine entry point.** On a semester calendar, arriving mid-year is unusual and housing options are thin. On a quarter system, Winter quarter is a normal start — for transfers, for students returning from a leave, for anyone whose plans changed. Housing that can take a January move-in matters more here than it would at a semester school.
 
-**A quarter is about ten weeks, and leases are not.** Your academic commitment arrives in ten-week blocks; rental commitments arrive in six- and twelve-month blocks. The two never line up cleanly, and the gap is the thing to plan around — particularly the summer, when a twelve-month lease keeps running through a quarter you may not be enrolled in.
+**A quarter is about ten weeks, and leases are not.** Your academic commitment arrives in ten-week blocks; a residential lease runs twelve months. The two never line up cleanly, and the gap is the thing to plan around, particularly the summer, when a twelve-month lease keeps running through a quarter you may not be enrolled in.
 
-Emerson Quarters runs standard leases of six or twelve months, with shorter terms sometimes available depending on availability. If your timing is unusual — a single quarter, a summer gap, a January start — that is a conversation to have directly rather than an assumption to make.
+Emerson Quarters offers one lease: an individual twelve-month residential lease, with rent paid monthly. Plan for the full year, for example by staying in Seattle to work over the summer. A January start is fine, but the lease still runs a full twelve months from your move-in date.
 
 ## What it costs, honestly
 
@@ -48,7 +48,7 @@ The usual student answer is to split one. Four people in a three-bedroom, someon
 
 Renting by the room is the other route. At Emerson Quarters, rooms start at **$895 a month**, and that figure includes water, electricity, heat, garbage, and high-speed WiFi. There is no separate utility account to open, no furniture to buy, and no shared lease — you sign for your own room and you are responsible for your room's rent, not the whole unit's.
 
-For comparison, the average co-living room across Seattle runs around $880 a month. Emerson is at that market rate while sitting in a neighbourhood where apartments cost several times what most of the city pays — which is the entire point of the model.
+For comparison, the average room in a shared apartment across Seattle runs around $880 a month. Emerson is at that market rate while sitting in a neighbourhood where apartments cost several times what most of the city pays — which is the entire point of the model.
 
 
 ## What you actually get
@@ -77,13 +77,13 @@ About a three-minute walk. The building is at 608 W Emerson St, on the same side
 A fully furnished private bedroom — bed, desk, chair, TV, storage — plus water, electricity, heat, garbage, and high-speed WiFi. You share the kitchen and bathroom with the others in your unit.
 
 ### Can I move in for Winter or Spring quarter?
-Standard leases run six or twelve months, and shorter terms are sometimes available depending on availability. Because SPU runs on quarters, mid-year starts are normal here — call and ask about your specific dates rather than assuming.
+Because SPU runs on quarters, mid-year move-ins are normal here. Whenever you start, the lease is twelve months. Each resident signs their own lease for their own room, and there are no nightly, weekly or short-term rentals, so plan for the full year.
 
 ### Do I need to find roommates first?
-No. You sign an individual lease for your own room and roommate matching is handled for you. You are responsible for your room's rent, not the whole unit's.
+No. You sign an individual twelve-month lease for your own room and roommate matching is handled for you. You are responsible for your room's rent, not the whole unit's.
 
 ### Is parking available?
 Yes, on-site, first-come first-served. Contact us for current availability and pricing.
 
 ### Can I see the building before I commit?
-Yes. Book a tour through the site or call (253) 263-0612. You can also use Instant Reservation, which holds a room for 24 hours with no payment and no obligation while we sort out the details with you.
+Yes. Schedule a tour through the site or call (253) 263-0612. You can also use Hold a Room, a free 24-hour hold on a room, with no payment, while you apply.

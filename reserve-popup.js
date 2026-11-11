@@ -69,12 +69,12 @@
         <button class="rp-close" aria-label="Close">' + closeSvg() + '</button>\
         <div class="rp-header">\
           <div class="rp-badge"><span class="rp-pulse"></span> Rooms available</div>\
-          <h3 class="rp-title">Reserve Now</h3>\
+          <h3 class="rp-title">Hold a Room</h3>\
           <p class="rp-sub">No payment or signup required.</p>\
         </div>\
         <div class="rp-body">\
-          <p>Make an instant reservation in just a few clicks. Your room will be held for <strong>24 hours</strong> - completely free.</p>\
-          <button class="rp-cta" id="rpBannerCta">Reserve a Room - Free</button>\
+          <p>Hold a room for <strong>24 hours</strong> while you apply for a 12-month lease - completely free.</p>\
+          <button class="rp-cta" id="rpBannerCta">Hold a Room - Free</button>\
           <p class="rp-hint">Takes less than 30 seconds</p>\
         </div>\
       </div>\
@@ -90,7 +90,7 @@
     render('\
       <div class="rp-card">\
         <button class="rp-close rp-close--dark" aria-label="Close">' + closeSvg() + '</button>\
-        <div class="rp-center"><h3>How would you like to reserve?</h3><p>Pick an option to continue</p></div>\
+        <div class="rp-center"><h3>Which room should we hold?</h3><p>Pick an option to continue</p></div>\
         <div class="rp-options">\
           <button class="rp-option" id="rpAny">\
             <div class="rp-icon rp-icon--primary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>\
@@ -98,7 +98,7 @@
           </button>\
           <button class="rp-option" id="rpSelect">\
             <div class="rp-icon rp-icon--muted"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div>\
-            <div><p class="rp-option-title">Select a Room</p><p class="rp-option-desc">Choose a specific room type to reserve</p></div>\
+            <div><p class="rp-option-title">Select a Room</p><p class="rp-option-desc">Choose a specific room type to hold</p></div>\
           </button>\
         </div>\
       </div>\

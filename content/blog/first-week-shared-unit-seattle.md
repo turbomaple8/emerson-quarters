@@ -1,7 +1,7 @@
 ---
 url: /blog/first-week-shared-unit-seattle/
 title: "Moving Into a Shared Unit in Seattle: The First Week That Sets the Tone"
-description: "The first week in a shared Seattle unit decides how the next six months go. What to sort out early, and what genuinely does not matter."
+description: "The first week in a shared Seattle unit decides how the rest of the year goes. What to sort out early, and what genuinely does not matter."
 h1: "Moving Into a Shared Unit in Seattle: The First Week That Sets the Tone"
 date: 2026-08-17
 pillar: P5
@@ -36,7 +36,7 @@ The good news is that the fix is early and small. Here is what is worth sorting 
 
 **Expect the light to change your evenings.** Seattle winters get dark early. A unit that feels sociable in September can feel like five closed doors in January, simply because everyone is inside by four. It is worth knowing that in advance and not reading it as anything personal. Many units here have private balconies, which help more than you would expect.
 
-**Learn the quarter rhythm.** SPU runs quarters rather than semesters — Autumn from late September, Winter from early January, Spring from late March — so the building turns over at quarter boundaries rather than once a year in September. Practically: your housemates may change more often than at a semester school, and January is a normal time for someone new to arrive. The upside is that being the new person is unremarkable here. Someone else was new eight weeks ago.
+**Learn the quarter rhythm.** SPU runs quarters rather than semesters — Autumn from late September, Winter from early January, Spring from late March — so the student half of the building runs on ten-week terms rather than one long one. Practically: midterms and finals come round three times a year, and your housemates' timetables shift each time. Leases here are twelve months and start at different points in the year, so there is no single cohort that formed in September. Being the new person is unremarkable here.
 
 ## What is yours regardless
 
@@ -50,4 +50,4 @@ You sign for your own room and you are responsible for your room's rent, not the
 
 So there is no shared utility account, no monthly split to calculate, and no chasing anyone for their share. That removes the single most common source of housemate friction before anyone moves in — which is the point of the arrangement, and the reason the first week can be about shelves and schedules rather than money.
 
-Want to see the unit before committing? Book a tour or call **(253) 263-0612**. Instant Reservation will hold a room for 24 hours, no payment, no obligation.
+Want to see the unit before committing? Schedule a tour or call **(253) 263-0612**. Hold a Room puts a free 24-hour hold on a room, no payment, while you apply.

@@ -51,7 +51,7 @@ From 608 W Emerson St:
 - **Downtown and Seattle Center** — roughly ten minutes by car, well served by Metro from stops about two minutes away.
 - **South Lake Union** — close enough that people working there generally do not keep a car.
 
-That last one matters if you are looking for something more career-adjacent than service work. SLU is where a large share of the city's tech employment sits, and internships and part-time roles there are reachable from Queen Anne without a commute that eats your study time.
+That last one matters if you are looking for something more career-adjacent than service work. SLU is where a large share of the city's tech employment sits, and part-time roles there are reachable from Queen Anne without a commute that eats your study time.
 
 ## The budget this is all feeding
 
@@ -71,6 +71,6 @@ Apartment rents in Queen Anne commonly run $3,400 to $5,200 a month, which is th
 
 ## Where this is
 
-Emerson Quarters, 608 W Emerson St — three minutes from Seattle Pacific, on the campus side of the ship canal, Metro two minutes away, downtown around ten by car. Furnished rooms from **$895 a month**, all-in, individual leases.
+Emerson Quarters, 608 W Emerson St — three minutes from Seattle Pacific, on the campus side of the ship canal, Metro two minutes away, downtown around ten by car. Furnished rooms from **$895 a month**, all-in, individual twelve-month leases.
 
-Come and see one: book a tour or call **(253) 263-0612**. Instant Reservation holds a room for 24 hours, no payment, no obligation.
+Come and see one: schedule a tour or call **(253) 263-0612**. Hold a Room is a free 24-hour hold on a room, with no payment, while you apply.

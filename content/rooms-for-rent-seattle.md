@@ -1,7 +1,7 @@
 ---
 url: /rooms-for-rent-seattle/
 title: "Furnished Rooms for Rent in Seattle | Queen Anne | Emerson Quarters"
-description: "Furnished private rooms for rent in Queen Anne, Seattle from $895/month. Utilities and WiFi included, individual lease, move in with a suitcase."
+description: "Furnished private rooms for rent in Queen Anne, Seattle from $895/month. Utilities and WiFi included, individual 12-month lease, move in with a suitcase."
 h1: "Furnished Rooms for Rent in Seattle: What $895 Gets You in Queen Anne"
 pillar: P3 (rent a room / room for rent)
 ---
@@ -16,7 +16,7 @@ This page answers that directly for one building in Queen Anne, Seattle: what $8
 
 Queen Anne is one of Seattle's most desirable neighbourhoods and it is priced accordingly. Apartment rents here commonly land somewhere between **$3,400 and $5,200 a month**.
 
-That figure is the reason room rentals exist in this neighbourhood at all. For most people arriving in Seattle — students, people early in a career, anyone on a fixed stipend — a Queen Anne apartment is not a stretch, it is simply out of reach. The realistic options narrow to three:
+That figure is the reason room rentals exist in this neighbourhood at all. For most people arriving in Seattle — students, people early in a career, anyone on a fixed budget — a Queen Anne apartment is not a stretch, it is simply out of reach. The realistic options narrow to three:
 
 **Live somewhere cheaper and commute in.** Perfectly reasonable, and it is what a lot of people do. The cost is time, and in Seattle that time is unpredictable: the Fremont Bridge is a drawbridge that opens for marine traffic, and the hill means a route that looks short on a map is not always short on foot.
 
@@ -24,7 +24,7 @@ That figure is the reason room rentals exist in this neighbourhood at all. For m
 
 **Rent a room.** You get the neighbourhood at a fraction of the price, and you give up the extra space an apartment would have given you.
 
-Across Seattle, the average co-living room runs around **$880 a month**. Emerson Quarters starts at **$895** — essentially city market rate, in a neighbourhood where a whole apartment costs several times that.
+Across Seattle, the average room in a shared apartment runs around **$880 a month**. Emerson Quarters starts at **$895** — essentially city market rate, in a neighbourhood where a whole apartment costs several times that.
 
 ## What $895 actually covers
 
@@ -66,11 +66,11 @@ The location detail that matters most is the one that does not show up on a map:
 
 Two routes.
 
-**Instant Reservation** holds a room for 24 hours. No payment, no card, no obligation. Someone from the team contacts you within that window to work through the details. Use it when you have found something you want and do not want to lose it while you think.
+**Hold a Room** is a free 24-hour hold on a room. No payment, no card, no obligation. Someone from the team contacts you within that window to work through the details. Use it when you have found a room you want and do not want to lose it while you apply.
 
-**Apply** when you are ready to commit. Applications are reviewed within 48 hours; once approved you sign your lease and set a move-in date.
+**Apply** when you are ready to commit. Applications are reviewed within 48 hours; once approved you sign your twelve-month lease and set a move-in date.
 
-You can also just come and look. Book a tour through the site, or call **(253) 263-0612**.
+You can also just come and look. Schedule a tour through the site, or call **(253) 263-0612**.
 
 
 ## Frequently asked questions
@@ -85,13 +85,13 @@ Yes. Bed, desk, chair, nightstand, storage, and a wall-mounted TV. You can arriv
 The kitchen and the bathroom, with the others in your unit. Your bedroom is private.
 
 ### Do I sign a lease for the whole apartment?
-No. You sign an individual lease for your own room and you are responsible for your room's rent, not the whole unit's.
+No. You sign an individual twelve-month lease for your own room and you are responsible for your room's rent, not the whole unit's.
 
 ### What are the lease terms?
-Standard leases run six or twelve months. Shorter terms are sometimes available depending on availability — ask about your dates.
+Leases are twelve months, with rent paid monthly. Each resident signs their own lease for their own room. There are no nightly, weekly or short-term rentals.
 
 ### Is there parking?
 Yes, on-site, first-come first-served. Contact us for current availability and pricing.
 
-### Does Instant Reservation cost anything?
-No. It holds a room for 24 hours with no payment and no obligation while we reach out to finalise details.
+### Does Hold a Room cost anything?
+No. It is a free 24-hour hold on a room, with no payment, while you apply.

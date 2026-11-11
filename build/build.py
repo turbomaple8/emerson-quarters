@@ -71,8 +71,24 @@ def extract_chrome():
 
 # ---------------------------------------------------------------- content
 
+# Emerson Quarters is long-term residential housing on 12-month leases. Copy
+# that reads as short-term, hospitality or coliving put the building's
+# insurance renewal at risk (Nov 2026), so the build refuses it outright.
+BANNED = re.compile(
+    r"co-?living|\binterns?\b|\binternships?\b|\bsublet|\bairbnb\b"
+    r"|\b(?:six|6)[- ]month|shorter terms?|flexible (?:lease|term)|month-to-month"
+    r"|instant reservation|\bbook(?:ing)? (?:a|your|the) (?:room|stay)",
+    re.I,
+)
+
+
 def parse(path):
     raw = open(path, encoding="utf-8").read()
+    hit = BANNED.search(raw)
+    if hit:
+        line = raw.count("\n", 0, hit.start()) + 1
+        sys.exit(f"build: {path}:{line} uses banned wording '{hit.group(0)}'. "
+                 "See 'Content rules' in build/README.md")
     m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
     if not m:
         sys.exit(f"build: {path} has no frontmatter block")
@@ -358,7 +374,7 @@ BLOG_INDEX = """<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Housing Guides Blog | Emerson Quarters, Queen Anne Seattle</title>
-  <meta name="description" content="Practical guides to renting a room in Queen Anne, Seattle — near Seattle Pacific University, for students, interns and young professionals.">
+  <meta name="description" content="Practical guides to renting a room in Queen Anne, Seattle — near Seattle Pacific University, for students and working professionals.">
   <link rel="canonical" href="{url}">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
   <meta name="google-site-verification" content="QI9jsJLHg663X3P5gQUsR4BtZDlt9PFNUvILft_5h3M">
@@ -375,7 +391,7 @@ BLOG_INDEX = """<!DOCTYPE html>
   <meta property="og:site_name" content="Emerson Quarters">
   <meta property="og:url" content="{url}">
   <meta property="og:title" content="Housing Guides Blog | Emerson Quarters, Queen Anne Seattle">
-  <meta property="og:description" content="Practical guides to renting a room in Queen Anne, Seattle — near Seattle Pacific University, for students, interns and young professionals.">
+  <meta property="og:description" content="Practical guides to renting a room in Queen Anne, Seattle — near Seattle Pacific University, for students and working professionals.">
   <meta property="og:image" content="{site}/photos/hero-exterior-1536.webp">
   <meta property="og:image:width" content="1536">
   <meta property="og:image:height" content="1024">

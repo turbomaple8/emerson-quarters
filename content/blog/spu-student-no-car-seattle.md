@@ -28,7 +28,7 @@ Then there is the part nobody budgets: **the time you spend moving the car** rat
 
 **Downtown and Seattle Center.** Metro stops are roughly two minutes from the building. Seattle Center is walkable on a decent day; downtown is a short ride.
 
-**South Lake Union.** If you work or intern there alongside studying, it is close enough that most people making that trip do not keep a car.
+**South Lake Union.** If you work there alongside studying, it is close enough that most people making that trip do not keep a car.
 
 **Fremont.** Across the ship canal. Walkable over the bridge when you are going deliberately — just not something you want in your daily commute, because the Fremont Bridge is a drawbridge and opens for marine traffic on its own schedule.
 
@@ -70,4 +70,4 @@ Emerson Quarters is at 608 W Emerson St: three minutes' walk to Seattle Pacific,
 
 Rooms from **$895 a month** including water, electricity, heat, garbage and WiFi — furnished, which is also what makes a car-free move-in possible in the first place.
 
-Walk the route yourself before deciding: book a tour or call **(253) 263-0612**.
+Walk the route yourself before deciding: schedule a tour or call **(253) 263-0612**.

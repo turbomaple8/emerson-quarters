@@ -38,7 +38,7 @@ Seattle winters are long, grey and damp rather than brutally cold, which produce
 
 If you are renting an apartment, that seasonal swing lands on you in January and February, in the same months your other costs tend to rise. If your rate is all-in, it does not. **The number does not move.**
 
-For anyone on a student budget or an intern stipend — where the monthly figure has to be predictable, not just low — that stability is often worth more than the average saving.
+For anyone on a student budget or an early-career salary, where the monthly figure has to be predictable, not just low, that stability is often worth more than the average saving.
 
 ## What "included" does not mean
 
@@ -54,7 +54,7 @@ Being direct about the boundaries, because vagueness here is how people end up a
 If you are comparing listings — here or elsewhere — these separate a genuine all-in rate from a headline:
 
 1. **Which specific utilities?** Ask for the list. "Utilities" without a list is not an answer. Water, electricity, heat, garbage and internet are five different things and some listings include three of them.
-2. **Is there a usage cap?** Some operators include utilities "up to" a monthly amount and bill the overage. That is a different product, especially in a Seattle winter.
+2. **Is there a usage cap?** Some landlords include utilities "up to" a monthly amount and bill the overage. That is a different product, especially in a Seattle winter.
 3. **Is internet actually included, or is it available?** Not the same thing.
 4. **Is laundry included, or coin-operated?** On-site laundry that costs per load is still better than a laundromat, but it is not free.
 5. **What is billed separately?** The most useful question, because it is the one that surfaces things nobody thought to mention.
@@ -63,7 +63,7 @@ If you are comparing listings — here or elsewhere — these separate a genuine
 
 Beyond the utilities, the rate covers a **furnished** private bedroom — bed, desk, chair, nightstand, storage, wall-mounted TV — and access to a shared full kitchen with stove, refrigerator, microwave and granite counters.
 
-The furniture matters more than it sounds for a short stay. Furnishing a room costs several hundred dollars, takes a weekend, and produces a pile of things you have to sell or move when you leave. For a student on a quarter system or an intern on a twelve-week assignment, arriving with a suitcase and leaving with one is most of the value.
+The furniture matters more than it sounds. Furnishing a room costs several hundred dollars, takes a weekend, and produces a pile of things you have to sell or move when you leave. For a student, or someone starting a first job in a new city, arriving with a suitcase and not having to buy a roomful of furniture is most of the value.
 
 There is on-site laundry in the building, which in a city that rains through most of the autumn and winter means wet clothes never leave the building — or go up the Queen Anne hill.
 
@@ -71,6 +71,6 @@ There is on-site laundry in the building, which in a city that rains through mos
 
 An all-in rate is not primarily about saving money, though at $895 in Queen Anne it does that too. It is about **one predictable number**, in a city where the winter heating months would otherwise make three of your monthly bills unpredictable at once.
 
-Ask any operator for the list. If they can name the five things without checking, the rate is probably real.
+Ask any landlord for the list. If they can name the five things without checking, the rate is probably real.
 
-Want to see the rooms? Book a tour on the site or call **(253) 263-0612**. Instant Reservation holds a room for 24 hours with no payment and no obligation.
+Want to see the rooms? Schedule a tour on the site or call **(253) 263-0612**. Hold a Room is a free 24-hour hold on a room, with no payment, while you apply.

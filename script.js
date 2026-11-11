@@ -397,12 +397,12 @@ function handleReserveForm(e) {
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>
       </div>
       <h3 style="margin: 0 0 0.25rem;">You're all set!</h3>
-      <p style="color: var(--accent, #b08968); font-weight: 500; margin: 0 0 1rem;">Your room is reserved for 24 hours.</p>
+      <p style="color: var(--accent, #b08968); font-weight: 500; margin: 0 0 1rem;">Your room is on hold for 24 hours.</p>
       <div style="background: var(--cream, #f5f0eb); border-radius: 8px; padding: 0.6rem 1rem; margin-bottom: 1rem;">
         <strong>Emerson Quarters</strong>
         ${room ? '<br><span style="font-size: 0.85rem; color: var(--text-light, #888);">' + room + '</span>' : ''}
       </div>
-      <p style="color: var(--text-light, #888); font-size: 0.9rem;">No payment was charged. A member of our team will reach out shortly to help you complete your booking.</p>
+      <p style="color: var(--text-light, #888); font-size: 0.9rem;">No payment was charged. A member of our team will reach out shortly to help you complete your rental application.</p>
       <div style="background: #fffbeb; border: 1px solid #fef3c7; border-radius: 8px; padding: 0.5rem 1rem; margin-top: 0.75rem;">
         <p style="font-size: 0.75rem; color: #92400e; margin: 0;">This hold expires in 24 hours. If not confirmed, the room is automatically released.</p>
       </div>

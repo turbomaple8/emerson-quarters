@@ -22,7 +22,7 @@ So "rent plus utilities" in September and the same phrase in January are differe
 
 ## Then add the lines a listing never shows
 
-**Setup.** An empty room needs a bed, mattress, desk, chair, storage, lamp and bedding before you can properly live in it. That is several hundred dollars and a weekend. Spread over a twelve-month stay it is a meaningful monthly line; over a ten-week quarter or a twelve-week internship it is simply a loss, because you will not recover it when you sell the furniture for a fraction of what you paid — assuming you find a buyer on the day you are leaving.
+**Setup.** An empty room needs a bed, mattress, desk, chair, storage, lamp and bedding before you can properly live in it. That is several hundred dollars and a weekend. Spread over a twelve-month lease it is a meaningful monthly line, and you will not recover much of it when you eventually sell the furniture for a fraction of what you paid, assuming you find a buyer on the day you are leaving.
 
 **Account deposits and setup fees.** Opening utility accounts as a new arrival with no local credit history frequently means deposits. Not huge individually; irritating collectively, and they land in the same week as everything else.
 
@@ -34,7 +34,7 @@ In Seattle this is sharper than in most cities, because the geography is unforgi
 
 ## The line that works in your favour
 
-If you are comparing Seattle against New York or California — for a job, an internship, or a programme — do not compare gross salary or stipend.
+If you are comparing Seattle against New York or California, for a job or a programme, do not compare gross salary or stipend.
 
 **Washington has no state income tax.** In New York you would pay state *and* city income tax on top of federal. In California, state income tax. Here, neither.
 
@@ -54,15 +54,15 @@ A worked shape, not a quote — your numbers will differ:
 | Commute time | ~3 min walk to SPU | whatever the geography costs |
 | Laundry | on site | on site or a trip |
 
-The honest summary: the all-in number wins on **predictability** more than on raw total. For a stay measured in quarters or months rather than years, it usually wins on total as well, because the setup cost never has time to amortise.
+The honest summary: the all-in number wins on **predictability** more than on raw total. For a first year or two in the city, it usually wins on total as well, because the setup cost has little time to amortise.
 
 ## Where an unfurnished room genuinely wins
 
-If you are staying several years, already own furniture, and have firm preferences about what you sleep on — buy once and keep it. The monthly saving compounds and you end up with things you chose.
+If you will be in one place for several years, already own furniture, and have firm preferences about what you sleep on — buy once and keep it. The monthly saving compounds and you end up with things you chose.
 
-The mistake is assuming you are in that case when you are not. A lot of people furnish a room for a year they end up not staying.
+The mistake is assuming you are in that case when you are not. A lot of people furnish a room and then move on a year or two later.
 
-## The three numbers to ask any operator for
+## The three numbers to ask any landlord for
 
 Because a rate alone will not tell you the monthly cost:
 
@@ -70,6 +70,6 @@ Because a rate alone will not tell you the monthly cost:
 2. **Whether there is a usage cap** — some rates include utilities "up to" an amount and bill the overage, which in a Seattle winter is a different product
 3. **What is billed separately** — the question that surfaces whatever nobody mentioned
 
-For comparison on the rent line itself: apartment rents in Queen Anne commonly run **$3,400 to $5,200 a month**, and co-living rooms across Seattle average around **$880**. A room here at $895 sits at roughly the citywide rate in a neighbourhood where whole apartments do not.
+For comparison on the rent line itself: apartment rents in Queen Anne commonly run **$3,400 to $5,200 a month**, and rooms in shared apartments across Seattle average around **$880**. A room here at $895 sits at roughly the citywide rate in a neighbourhood where whole apartments do not.
 
-Want the specific numbers for a specific room? Call **(253) 263-0612**, or hold one for 24 hours with Instant Reservation — no payment, no obligation — while you do the arithmetic.
+Want the specific numbers for a specific room? Call **(253) 263-0612**, or use Hold a Room, a free 24-hour hold on a room with no payment, while you apply.

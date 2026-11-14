@@ -1,0 +1,99 @@
+/* ========================================
+   EMERSON QUARTERS — paid-traffic landing pages (/rooms/, /spu/)
+   Loaded after styles.css; reuses its tokens, buttons, forms and FAQ.
+   Mobile first: most ad traffic is on a phone.
+======================================== */
+
+.lp { padding-bottom: 76px; } /* room for the sticky bar */
+.lp h1 { font-size: clamp(1.9rem, 6.2vw, 3.1rem); color: var(--white); }
+.lp h2 { font-size: clamp(1.45rem, 3vw, 2rem); }
+.lp .section { padding: 3rem 0; }
+
+/* ---- Top bar: brand + phone, no menu ---- */
+.lp-top { background: var(--secondary); color: var(--white); }
+.lp-top__inner { display: flex; align-items: center; justify-content: space-between; height: 56px; }
+.lp-logo { display: flex; align-items: baseline; gap: 0.4rem; }
+.lp-logo__name { font-family: var(--font-heading); font-size: 1.35rem; }
+.lp-logo__sub { font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.75; }
+.lp-top__phone { font-weight: 600; font-size: 0.92rem; padding: 0.45rem 0.9rem; border: 1.5px solid rgba(255,255,255,0.3); border-radius: var(--radius-pill); }
+
+/* ---- Hero ---- */
+.lp-hero { position: relative; background: var(--primary-dark); color: var(--white); }
+.lp-hero__img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.lp-hero__shade { display: none; }
+.lp-hero__grid { position: relative; padding-top: 1.5rem; padding-bottom: 2rem; display: grid; gap: 1.5rem; }
+.lp-badge { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent-light); margin-bottom: 0.75rem; }
+.lp-badge__dot { width: 8px; height: 8px; border-radius: 50%; background: #34d399; }
+.lp-hero__sub { margin-top: 0.75rem; font-size: 1.05rem; color: rgba(255,255,255,0.86); max-width: 34rem; }
+.lp-points { margin-top: 1.25rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+.lp-points li { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius-md); padding: 0.75rem 0.85rem; }
+.lp-points strong { display: block; font-size: 1rem; font-weight: 700; color: var(--white); }
+.lp-points span { display: block; font-size: 0.8rem; line-height: 1.35; color: rgba(255,255,255,0.75); margin-top: 0.15rem; }
+.lp-hero__alt { margin-top: 1.1rem; font-size: 0.9rem; color: rgba(255,255,255,0.8); }
+.lp-hero__alt a { color: var(--white); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---- Form card ---- */
+.lp-card { background: var(--card-bg); color: var(--text); border-radius: var(--radius-lg); padding: 1.5rem 1.25rem; box-shadow: var(--shadow-lg); scroll-margin-top: 1rem; }
+.lp-card__title { font-size: 1.5rem; }
+.lp-card__sub { color: var(--text-secondary); font-size: 0.92rem; margin: 0.25rem 0 1.1rem; }
+.lp-card .form-group input { padding: 0.8rem 1rem; font-size: 16px; } /* 16px stops iOS zooming on focus */
+.lp-optional { color: var(--text-muted); font-weight: 400; }
+.lp-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.lp-form__note { text-align: center; font-size: 0.8rem; color: var(--text-muted); margin-top: 0.75rem; }
+.lp-form__error { background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; border-radius: var(--radius-sm); padding: 0.7rem 0.9rem; font-size: 0.88rem; margin-bottom: 0.9rem; }
+.lp-form__error a { font-weight: 600; text-decoration: underline; }
+.lp-card button[disabled] { opacity: 0.65; cursor: default; }
+.lp-success { text-align: center; padding: 1rem 0 0.5rem; }
+.lp-success__icon { width: 56px; height: 56px; border-radius: 50%; background: #ecfdf5; color: #059669; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin: 0 auto 0.9rem; }
+.lp-success p { color: var(--text-secondary); margin: 0.4rem 0 1.1rem; }
+.lp-wa-btn { background: #25d366; border-color: #25d366; color: #fff; }
+
+/* ---- Gallery: swipe on a phone, row on desktop ---- */
+.lp-gallery { background: var(--bg); padding: 1.25rem 0 0; }
+.lp-gallery__track { display: flex; gap: 0.75rem; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 1.5rem 0.5rem; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+.lp-gallery__track::-webkit-scrollbar { display: none; }
+.lp-gallery__item { flex: 0 0 78%; scroll-snap-align: center; border-radius: var(--radius-md); overflow: hidden; }
+.lp-gallery__item img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+
+/* ---- Content blocks ---- */
+.lp-two { display: grid; gap: 2.5rem; }
+.lp-two h2 { margin-bottom: 1rem; }
+.lp-checks li { align-items: flex-start; }
+.lp-steps { display: grid; gap: 1rem; max-width: 880px; margin: 0 auto 2rem; }
+.lp-step { display: flex; gap: 1rem; background: var(--card-bg); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; box-shadow: var(--shadow-sm); }
+.lp-step__n { flex: 0 0 36px; height: 36px; border-radius: 50%; background: var(--primary); color: var(--white); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+.lp-step h3 { font-family: var(--font-body); font-size: 1.02rem; font-weight: 600; }
+.lp-step p { color: var(--text-secondary); font-size: 0.92rem; margin-top: 0.2rem; }
+.lp-center { text-align: center; }
+
+/* ---- Footer ---- */
+.lp-footer { background: var(--secondary); color: rgba(255,255,255,0.75); padding: 1.75rem 0; font-size: 0.85rem; text-align: center; }
+.lp-footer p + p { margin-top: 0.4rem; }
+.lp-footer strong { color: var(--white); }
+.lp-footer a { color: var(--white); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---- Sticky bar (phones) ---- */
+.lp-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 950; display: flex; gap: 0.6rem; padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom)); background: rgba(255,255,255,0.97); border-top: 1px solid var(--border); box-shadow: 0 -4px 16px rgba(0,0,0,0.08); transition: transform 0.25s ease; }
+.lp-bar--hidden { transform: translateY(110%); }
+.lp-bar__main { flex: 1; padding: 0.85rem 1rem; }
+.lp-bar__wa { flex: 0 0 52px; height: 52px; border-radius: var(--radius-md); background: #25d366; color: #fff; display: flex; align-items: center; justify-content: center; }
+.lp-bar__wa svg { width: 28px; height: 28px; }
+.lp .whatsapp-fab { display: none; } /* the bar carries WhatsApp on phones */
+
+/* ---- Desktop ---- */
+@media (min-width: 900px) {
+  .lp { padding-bottom: 0; }
+  .lp-bar { display: none; }
+  .lp .whatsapp-fab { display: flex; }
+  .lp-hero__img { position: absolute; inset: 0; height: 100%; aspect-ratio: auto; }
+  .lp-hero__shade { display: block; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,28,43,0.94) 0%, rgba(10,28,43,0.82) 48%, rgba(10,28,43,0.45) 100%); }
+  .lp-hero__grid { grid-template-columns: 1.15fr 0.85fr; gap: 3.5rem; align-items: center; padding-top: 4rem; padding-bottom: 4rem; }
+  .lp-card { padding: 2rem; }
+  .lp-gallery { padding-top: 2rem; }
+  .lp-gallery__track { max-width: 1280px; margin: 0 auto; overflow: visible; }
+  .lp-gallery__item { flex: 1 1 0; }
+  .lp-two { grid-template-columns: 1fr 1fr; gap: 4rem; }
+  .lp-steps { grid-template-columns: repeat(3, 1fr); }
+  .lp-step { flex-direction: column; }
+  .lp .section { padding: 4rem 0; }
+}

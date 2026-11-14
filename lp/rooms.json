@@ -1,0 +1,17 @@
+{
+  "slug": "rooms",
+  "title": "Furnished Rooms in Queen Anne, Seattle — From $895/Month | Emerson Quarters",
+  "description": "Furnished private rooms in Queen Anne, Seattle. From $895/month with utilities and WiFi included. Individual leases. Check availability.",
+  "badge": "Rooms available now",
+  "h1": "Furnished private rooms in Queen Anne, Seattle",
+  "sub": "From $895/month with utilities, WiFi and furniture included. Your own room, your own lease.",
+  "points": [
+    ["$895/month", "utilities and WiFi included"],
+    ["Individual lease", "you only pay for your own room"],
+    ["Move-in ready", "bed, desk, chair, TV and storage"],
+    ["Queen Anne", "3-minute walk to Seattle Pacific University"]
+  ],
+  "formTitle": "Check availability",
+  "formSub": "Tell us when you want to move in. No payment needed.",
+  "faqOrder": ["included", "byroom", "lease", "tour"]
+}

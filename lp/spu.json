@@ -1,0 +1,17 @@
+{
+  "slug": "spu",
+  "title": "Furnished Rooms 3 Minutes From SPU — From $895/Month | Emerson Quarters",
+  "description": "Furnished private rooms a 3-minute walk from Seattle Pacific University. From $895/month, utilities and WiFi included. Individual leases.",
+  "badge": "Rooms available now",
+  "h1": "Furnished rooms a 3-minute walk from SPU",
+  "sub": "From $895/month with utilities, WiFi and furniture included. Individual lease — you're only responsible for your own room.",
+  "points": [
+    ["3-minute walk", "to Seattle Pacific University"],
+    ["$895/month", "utilities and WiFi included"],
+    ["Individual lease", "6 or 12 months, your room only"],
+    ["Move-in ready", "bed, desk, chair, TV and storage"]
+  ],
+  "formTitle": "Check availability near SPU",
+  "formSub": "Tell us when you want to move in. No payment needed.",
+  "faqOrder": ["spu", "included", "byroom", "lease"]
+}

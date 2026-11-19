@@ -5,6 +5,11 @@
    The visitor is told the request was sent only after /api/lead accepted it.
    On any failure they get the phone number and WhatsApp instead of a false
    "thanks" — a lead we lose silently is worse than one we never had.
+
+   There is deliberately no hidden honeypot field here. The first version had
+   one named "company"; browser autofill filled it for a real visitor, the page
+   said "Request received" and sent nothing (2026-11-19). Every path that shows
+   success must have gone through /api/lead first.
 ======================================== */
 (function () {
   'use strict';
@@ -86,9 +91,6 @@
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     var data = new FormData(form);
-
-    // Honeypot: answer as though it worked, send nothing.
-    if (data.get('company')) { showSuccess(); return; }
 
     if (typeof sendToEmail !== 'function' || typeof recordLead !== 'function') { showError(); return; }
 

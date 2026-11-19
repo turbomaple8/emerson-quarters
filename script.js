@@ -202,7 +202,8 @@ function track(name, params) {
     if (typeof gtag !== 'function') return;
     gtag('event', name, Object.assign({
       source_page: location.pathname,
-      page_group: location.pathname === '/' ? 'home' : 'guide'
+      page_group: document.documentElement.getAttribute('data-page-group') ||
+                  (location.pathname === '/' ? 'home' : 'guide')
     }, params || {}));
   } catch (e) { /* analytics is never allowed to break the form */ }
 }
@@ -426,20 +427,38 @@ function handleReserveForm(e) {
     a.rel = 'noopener';
     a.setAttribute('aria-label', 'Chat with us on WhatsApp');
     a.innerHTML = ICON;
-    a.addEventListener('click', function () {
-      // Routed through track() so this carries source_page like every other
-      // conversion — otherwise a WhatsApp enquiry cannot be attributed to the
-      // guide that produced it.
-      track('whatsapp_click', { link_url: WHATSAPP_URL, method: 'whatsapp' });
-      try { if (typeof fbq === 'function') fbq('track', 'Contact', { method: 'whatsapp' }); } catch (e) {}
-      adsConversion(ADS_CONVERSIONS.whatsapp, 0);
-    });
+    a.addEventListener('click', onWhatsAppClick);
     document.body.appendChild(a);
   }
 
+  // Routed through track() so this carries source_page like every other
+  // conversion — otherwise a WhatsApp enquiry cannot be attributed to the
+  // page that produced it.
+  function onWhatsAppClick() {
+    track('whatsapp_click', { link_url: WHATSAPP_URL, method: 'whatsapp' });
+    try { if (typeof fbq === 'function') fbq('track', 'Contact', { method: 'whatsapp' }); } catch (e) {}
+    adsConversion(ADS_CONVERSIONS.whatsapp, 0);
+  }
+
+  // Any <a data-whatsapp> in the page markup gets its number from here, so
+  // WHATSAPP_URL above stays the single place the number is written.
+  function wireWhatsAppLinks() {
+    document.querySelectorAll('a[data-whatsapp]').forEach(function (a) {
+      if (a.getAttribute('data-whatsapp') === 'wired') return;
+      a.setAttribute('data-whatsapp', 'wired');
+      a.href = WHATSAPP_URL;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.addEventListener('click', onWhatsAppClick);
+    });
+  }
+  window.EQ_wireWhatsApp = wireWhatsAppLinks;
+
+  function init() { injectWhatsAppFab(); wireWhatsAppLinks(); }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', injectWhatsAppFab);
+    document.addEventListener('DOMContentLoaded', init);
   } else {
-    injectWhatsAppFab();
+    init();
   }
 })();
